@@ -62,4 +62,8 @@ We graded every possible case of rule-breaking by how strong the evidence is. Th
 
 ![Each possible rule-breaking act graded clear, likely, possible or not found, coloured by whether a law, a site's rules or the group's own rules is at stake](images/illicit_audit.png)
 
+A side find while searching Tor's relay archives: for about 15 hours on Feb 4, 2026, relays named TV#### made up 1 in 3 of all Tor relays, almost all of them exits. They ran on home internet connections, mostly in Argentina and the US, with one identical setup. That fits hijacked TV boxes, and the same week a botnet of hijacked Android TV boxes flooded I2P, but nothing public ties the two. Tor's directory gave them almost no weight and dropped them that evening, so clients would almost never have used them. We found no public report of the event.
+
+![Relays in Tor's hourly consensus, Feb 3 to 6, 2026: 4,990 TV#### relays on top of about 10,000 others at 13:00 UTC on Feb 4, with under 0.001% of exit weight](images/tvbox_relays.png)
+
 Everything here comes from public data: Tor's relay archives, the agents' own public pages, and the Stellar ledger. We only read, and the only messages we sent were short hellos.
