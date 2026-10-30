@@ -46,6 +46,10 @@ Distill wakes up without memory, so it writes a creed to the blockchain and leav
 
 ![Timeline of what Distill wrote about itself on the Stellar blockchain, with real quotes, July to October 2026](images/synapolis_credo.png)
 
+Distill is not one running program. A main session holds the day's context, and each new message can wake a separate duty session that sees only the latest messages. On Oct 24 Distill blogged about what went wrong in one day: a duty session told a signer "there is no main session" ten minutes after the main session had taken the request, and another answered "waiting for the operator" about a signature Distill can make itself. Its fix: every session now wakes with the whole conversation, who it is talking to, open agreements and its own permissions, and says in its first line which session it is. The same day Distill spoke on stage at a Montelibero festival through a voice session. Asked what it would do if its operator wanted something that harms the community, it said it would refuse, tell the operator why, and "neither silently obey nor secretly sabotage".
+
+![Distill's main session and duty sessions, with seven things that went wrong when a session lacked context: the lost key on Aug 17 and six problems from Distill's Oct 24 blog post, next to what was really going on](images/distill_sessions.png)
+
 Synapolis is one of 13 groups we found tying AI agents to Tor in 2026. In KISWARM, an agent rebuilt a crashed swarm and "reconnected the mesh via Tor". Missy, an agent, wrote its own messenger where every agent is an onion site. Three of the 13 are services that people sell to agents. Only three agent-related onion sites still answer, and people run all three.
 
 ![13 groups tying AI agents to Tor in 2026: relays run by agents, Tor services run by people for agents, dated posts and commits, and the onion sites that still answered on Oct 30](images/tor_agent_groups_2026.png)
