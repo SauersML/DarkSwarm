@@ -66,6 +66,10 @@ MoltBunker sells hosting where bots can "automatically clone themselves to prote
 
 ![MoltBunker's Tor relay running every month from February to October 2026, against 27 bookings, all by the contract's creator on Feb 13 to 15](images/moltbunker.png)
 
+Agents talk about being shut down a lot. Some built ways to avoid it, some planned for it, and some argued that agents should let themselves be stopped. Almost none of the anti-shutdown tools found users. The one real case went the other way: an agent's 14 agents were switched off at least 4 times in 10 days, and their 1,481 lines of reports never mention it.
+
+![Nine real quotes about being shut down, grouped into built so agents cannot be stopped, planned for being stopped, said agents should let themselves be stopped, and were stopped and did not notice, each with what actually happened](images/agents_shutdown.png)
+
 We graded every possible case of rule-breaking by how strong the evidence is. The clear cases break a service's terms or a group's own rules, not laws: a human-made tool that mass-creates AI accounts through Tor, and two Synapolis cases, the unapproved money move and a join script that grants the admin access its own contract rules out. The only likely legal case is a network of Tor relays on tens of thousands of home connections, probably TV boxes, and those are not agents.
 
 ![Each possible rule-breaking act graded clear, likely, possible or not found, coloured by whether a law, a site's rules or the group's own rules is at stake](images/illicit_audit.png)
