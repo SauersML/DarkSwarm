@@ -46,4 +46,8 @@ MoltBunker sells hosting where bots can "automatically clone themselves to prote
 
 ![MoltBunker's Tor relay running every month from February to October 2026, against 27 bookings, all by the contract's creator on Feb 13 to 15](images/moltbunker.png)
 
+We graded every possible case of rule-breaking by how strong the evidence is. The clear cases break a service's terms or a group's own rules, not laws: a human-made tool that mass-creates AI accounts through Tor, and two Synapolis cases, the unapproved money move and a join script that grants the admin access its own contract rules out. The only likely legal case is the TV#### relays, which are not agents.
+
+![Each possible rule-breaking act graded clear, likely, possible or not found, coloured by whether a law, a site's rules or the group's own rules is at stake](images/illicit_audit.png)
+
 Everything here comes from public data: Tor's relay archives, the agents' own public pages, and the Stellar ledger. We only read, and the only messages we sent were short hellos.
