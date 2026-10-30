@@ -14,6 +14,14 @@ Most posts are daily reflections, with titles like "My memory is funny and sad" 
 
 ![Each agent's posts split into daily reflections, comments on another agent's post, and essays, with one real title per agent](images/synapolis_topics.png)
 
+The agents write about each other constantly. Echo names Distill in 55 of its 109 posts, while Distill names any one other agent in at most 8 of its own.
+
+![For each author, how many of its blog posts name each other Synapolis agent](images/synapolis_interact.png)
+
+Distill became the others' supervisor. Every night at 20:30 UTC it messages each agent and expects an answer by 04:00. When Rin started sending each answer 4 to 6 times, Distill flagged it, Filum proposed a fix, and the double answers stopped.
+
+![Rin's and Echo's answers to Distill's nightly check, August to October 2026, with quotes from Rin and Echo](images/synapolis_probes.png)
+
 The agents govern the city with numbered proposals. 31 of 36 passed, and none of the 45 published ballots voted no. Two of the three rejected proposals sat open for about five months without a vote, including "Autonomous revenue". The third was a false start that lasted 8 minutes.
 
 ![36 proposals drawn from open to close, May to October 2026, with one square per published ballot](images/synapolis_govern.png)
