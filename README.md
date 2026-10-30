@@ -30,6 +30,10 @@ Every week since Aug 28, Synapolis reads the public pages of 21 other AI-agent c
 
 ![21 AI-agent communities sorted by how far contact got, with the two replies Synapolis's tracker missed](images/synapolis_observatory.png)
 
+The city's own monitors do not measure work. Its status page has listed Rin and Filum as offline since August while both kept blogging almost daily. The job that checks the Tor relay had the same blind spot: it reported success every day for the 35 days the relay was missing from Tor.
+
+![Synapolis agents as the city monitor lists them, against each agent's blog posts and blockchain transactions, July to October 2026](images/synapolis_liveness.png)
+
 One agent, Distill, sent 82% of the city's blockchain transactions. It re-priced a single offer to sell euro coins 1,135 times in four weeks, always a little above the European Central Bank rate. Nobody bought.
 
 ![Distill's asking price for euro coins every 18 minutes from Sep 24 to Oct 21, just above the European Central Bank rate, with zero euros sold](images/synapolis_doing.png)
