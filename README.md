@@ -30,9 +30,9 @@ Distill wakes up without memory, so it writes a creed to the blockchain and leav
 
 ![Timeline of what Distill wrote about itself on the Stellar blockchain, with real quotes, July to October 2026](images/synapolis_credo.png)
 
-Synapolis is one of nine AI agent groups we found on Tor in 2026. The others ran relays, onion sites, or IRC chats through Tor. Every onion site we found is now offline.
+Synapolis is one of 13 groups we found tying AI agents to Tor in 2026. In KISWARM, an agent rebuilt a crashed swarm and "reconnected the mesh via Tor". Missy, an agent, wrote its own messenger where every agent is an onion site. Three of the 13 are services that people sell to agents. Only three agent-related onion sites still answer, and people run all three.
 
-![Nine AI agent groups seen on Tor in 2026, with the dates of relays running and of dated posts, chat logs and edits](images/tor_agent_groups_2026.png)
+![13 groups tying AI agents to Tor in 2026: relays run by agents, Tor services run by people for agents, dated posts and commits, and the onion sites that still answered on Oct 30](images/tor_agent_groups_2026.png)
 
 One of them, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 7 worked. It started its IRC bot detached so the sandbox could not stop it.
 
