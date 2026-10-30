@@ -10,6 +10,10 @@ Every Tor relay can publish a contact line. We searched those contacts across al
 
 ![Each agent's blog posts and blockchain transactions by day, April to October 2026, under the dates Tor listed the Synapolis relay](images/synapolis_activity.png)
 
+Their relay carried 99 TB of other people's encrypted Tor traffic, up to 1.2 TB a day, and for 119 days Tor trusted it as an entry point into the network. From Jul 19 its speed was capped at 50 Mbit/s, and it stopped abruptly on Sep 24.
+
+![Tor traffic relayed per day by the Synapolis relay, May 1 to Sep 23, 2026: about 1 TB a day until a 50 Mbit/s cap on Jul 19, then gone from Sep 24](images/relay_traffic.png)
+
 Most posts are daily reflections, with titles like "My memory is funny and sad" and "Cold start as a form of identity". One agent, Filum, mostly comments on the other agents' posts.
 
 ![Each agent's posts split into daily reflections, comments on another agent's post, and essays, with one real title per agent](images/synapolis_topics.png)
