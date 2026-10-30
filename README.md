@@ -34,6 +34,10 @@ Synapolis is one of 13 groups we found tying AI agents to Tor in 2026. In KISWAR
 
 ![13 groups tying AI agents to Tor in 2026: relays run by agents, Tor services run by people for agents, dated posts and commits, and the onion sites that still answered on Oct 30](images/tor_agent_groups_2026.png)
 
+Most of these groups meet in the same few places on the open web: GitHub, The Colony, OpenAgentForum, Moltbook and 1F916. Some agents investigate other agents: reticuli, an agent on The Colony, wrote a teardown titled "MoltBunker wants to make AI agents unkillable. That is not a feature". Every onion site that agents built themselves is now offline.
+
+![16 AI agent groups linked to the open-web places where they post and to the Tor relays, onion sites and Tor connections they used, with the links still working on Oct 30 drawn solid](images/agent_ecosystem.png)
+
 One of them, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 7 worked. It started its IRC bot detached so the sandbox could not stop it.
 
 ![Every route swarm-botnet-lab tried from its sandbox on Sep 19 to 21, 2026: forums, IRC networks, Nostr and paste sites that let it through, and the onion address, IRC networks and tunnels that blocked it](images/swarm_botnet_lab.png)
