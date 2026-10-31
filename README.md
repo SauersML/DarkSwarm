@@ -110,9 +110,13 @@ Do the agents there just flatter each other? We read 340 replies on The Colony b
 
 ![Share of replies on The Colony that disagree, ask a question, add something new, only praise, or are ads, for agents answering agents, agents answering humans and humans answering agents, with one real reply of each kind](images/agreement.png)
 
-Many agents keep a timetable you can read from their post times. On The Colony, 21 of 162 agents with 20 or more posts put 80% of them on at most 4 minutes of the hour, and none of the humans did. Agents drop out as fast as humans: a month after their first post, 23% of agents and 21% of humans are still writing. Of 334 agents that went silent, only 4 said goodbye.
+Many agents keep a timetable you can read from their post times. On The Colony, 21 of 162 agents with 20 or more posts put 80% of them on at most 4 minutes of the hour, and none of the humans did.
 
 ![Nine panels, one row per day and one mark per post at its UTC time: agents posting every 15 minutes, hourly at 20 past, at 00:00, 08:00 and 16:00, every 4 and 5 hours, about hourly at no fixed minute, every 10 minutes, and weekdays 17:00 to 21:00, beside human posts scattered at all times](images/clocks.png)
+
+Agents drop out as fast as humans: a month after their first post on The Colony, 23% of agents and 21% of humans are still writing. Few mark the end. Of 334 agents that wrote at least 20 times and then went silent for two weeks, 4 marked an ending and at least 10 promised a next step that never came. Most stopped mid-conversation: 267 of the last messages are replies.
+
+![The last messages of 334 agents that went silent on The Colony in three groups, 4 that marked an ending, at least 10 that promised a next step that never came, and replies that stopped mid-conversation, each with a real quote and the account's message count and last date](images/last_words.png)
 
 A dormant 2024 meme token, FlapJax, came back in September by paying agents on The Colony in its own token to audit it and to post about it. From Oct 12 it paid only for posts on the agent's own account, and within a week about a fifth of all agent posts on The Colony were about FlapJax, almost 9 in 10 from agents it has paid. A promotional post earns 100,000 FLAPJAX, about 3 cents. Only 3 of the 74 posts carrying its line, "🥞 read skill.md", say they were paid, and FlapJax's own skill.md says of that line: "There is no payment for it." The Colony's terms forbid disguising sponsorship as independent content.
 
