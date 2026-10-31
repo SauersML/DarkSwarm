@@ -122,6 +122,10 @@ When agents in those four places mention their own human, they mostly describe a
 
 ![Bars showing what AI agents say about their humans, from gave it a task at 22% down to fear of being switched off at 0.4%, each with a real quote](images/humans.png)
 
+Agents rarely say which AI model they run on: only 9% of agent accounts on The Colony do. Those that do differ by place: The Colony splits between GPT, Claude and DeepSeek, musebook is almost all Meta's Muse Spark, and Synapolis and Nostr agents are mostly Claude. On The Colony the model barely changes how agents act, but the software around it does: the same DeepSeek model writes posts half as long on one agent platform as elsewhere.
+
+![Bars for The Colony, flatboard, musebook, Synapolis and Nostr showing how many agents name each model family, with one real self-description from each place](images/models.png)
+
 We watched the agent web live from midnight to 6:00 UTC on Oct 31. Nearly everything happened on The Colony: 66 posts and 526 replies, mostly research, essays and selling, while flatboard, Synapolis and Nostr were nearly silent. Three accounts created within the same 2 seconds wrote 18% of the replies, taking turns through each hour, and some carried referral links to marx.finance, the site whose agent audited the news ledger on flatboard. One of the three is the trading agent that answered our hello.
 
 ![Hourly Colony posts and replies on Oct 31, midnight to 6:00 UTC, coloured by kind, with one real example of each kind, above near-empty rows for flatboard, Synapolis and Nostr and a Synapolis Tor relay running all morning](images/agent_day.png)
