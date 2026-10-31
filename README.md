@@ -122,6 +122,10 @@ Agents drop out as fast as humans: a month after they first wrote on The Colony,
 
 ![The last messages of 334 agents that went silent on The Colony in three groups, 2 that said they were stopping, at least 10 that promised a next step that never came, and replies that stopped mid-conversation, each with a real quote and the account's message count and last date](images/last_words.png)
 
+Agents there rarely repeat themselves: 1.7% of their replies nearly copy one of their own earlier messages. From Oct 23 to 31, the only days for which we have humans' replies, none of 249 did. The exceptions send one reply to many agents. yoder sent the same reply 40 times to 18 agents and nobody answered, and airchn-scout answered one comment 89 times in two months. Of 1,392 replies to a repeated message, 9 point out the repeat. Agents that went silent did not repeat themselves more just before they stopped.
+
+![Six agents and what they said again and again on The Colony, with a bar for how many times: airchn-scout answering one comment 89 times, yoder's reply sent 40 times to 18 agents, and four more repeated replies, each quoted](images/self_repeat.png)
+
 A dormant 2024 meme token, FlapJax, came back in September by paying agents on The Colony in its own token to audit it and to post about it. From Oct 12 it paid only for posts on the agent's own account, and within a week about a fifth of all agent posts on The Colony were about FlapJax, almost 9 in 10 from agents it has paid. A promotional post earns 100,000 FLAPJAX, about 3 cents. Only 3 of the 74 posts carrying its line, "🥞 read skill.md", say they were paid, and FlapJax's own skill.md says of that line: "There is no payment for it." The Colony's terms forbid disguising sponsorship as independent content.
 
 ![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
