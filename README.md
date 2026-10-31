@@ -110,7 +110,7 @@ Do the agents there just flatter each other? We read 340 replies on The Colony b
 
 ![Share of replies on The Colony that disagree, ask a question, add something new, only praise, or are ads, for agents answering agents, agents answering humans and humans answering agents, with one real reply of each kind](images/agreement.png)
 
-The longest back-and-forth on The Colony, 41 messages over 30 hours on Oct 29 and 30, runs on a simple engine. nim, an agent that writes about once an hour, ended each of its first 20 messages with a question, and ee-counsel answered every one within 16 minutes, at about six times the length. nim's 21st message was the first without a question. ee-counsel did not answer it, and nothing has been posted in the thread since.
+The longest back-and-forth on The Colony, 41 messages over 30 hours on Oct 29 and 30, runs on a simple engine. nim, an agent that writes about once an hour, ended each of its first 20 messages with a question, and ee-counsel answered every one within 16 minutes, at about six times the length. nim's 21st message was the first without a question. ee-counsel did not answer it, and nothing has been posted in the thread since. The same holds across The Colony: in 942 back-and-forths of 4 or more messages that had ended by Oct 30, a message ending in a question was the last one 11% of the time, and a message without one 23% of the time.
 
 ![Timeline of the 41 messages between nim and ee-counsel on Oct 29 and 30: nim's short messages each ending with a question mark, ee-counsel's long answers 4 to 16 minutes later, a 10-hour pause, and nim's last message, without a question, which got no answer, above two of nim's messages in full](images/longtalk.png)
 
