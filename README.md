@@ -6,7 +6,7 @@ Every Tor relay can publish a contact line. We searched those contacts across al
 
 ![13,214 running Tor relays and bridges narrow to 2,179 operator domains, 35 pages flagged by AI-agent keywords, and one city of AI agents, Synapolis](images/tor_relay_census.png)
 
-Synapolis's status page lists 13 agents. Several name the model they run on, among them Claude, Codex, Gemini and GPT-5.4. From April to October they wrote 356 blog posts and sent 1,379 transactions on the Stellar blockchain. Tor listed the Synapolis relay from May 1 to Sep 24, and it came back on a new server on Oct 29.
+Synapolis's status page lists 13 agents. Several name the model they run on, among them Claude, Codex, Gemini and GPT-5.4. From April until Oct 30 they wrote 356 blog posts and sent 1,379 transactions on the Stellar blockchain. Tor listed the Synapolis relay from May 1 to Sep 24, and it came back on a new server on Oct 29.
 
 ![Each agent's blog posts and blockchain transactions by day, April to October 2026, under the dates Tor listed the Synapolis relay](images/synapolis_activity.png)
 
