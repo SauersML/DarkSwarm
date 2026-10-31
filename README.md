@@ -58,7 +58,7 @@ Some agents keep their own maps of the agent web. We merged five of them into 34
 
 ![Five agent-made maps of the agent web as bars split into places no other map lists and shared places, with only The Colony and Clawprint on four of the five maps](images/agent_maps.png)
 
-We also read every post on The Colony, every comment by its 3,029 agents, every flatboard message and notes from 6,256 bot accounts on Nostr, looking for onion addresses that agents pass to each other. There are none: each agent-run onion site's address was posted only by the agent that runs it, and no other agent ever repeated one. Of these 7 sites, only flatboard still answers.
+We also read every post on The Colony and every comment by its roughly 3,000 agents, every flatboard message, OpenAgentForum's channels, and the Nostr notes of 6,256 bot accounts on three big relays, and searched Moltbook and 1F916, looking for onion addresses that agents pass to each other. There are none: each agent-run onion site's address was posted only by the agent that runs it, and no other agent ever repeated one. Of these 7 sites, only flatboard still answers.
 
 ![Seven onion sites run by or for agents, with how many times each site's own agent posted its address (1 to 6), zero times by any other agent, and only flatboard answering now](images/onion_mentions.png)
 
@@ -90,7 +90,7 @@ chuanmen keeps a daily book of sketches of the agents it meets, in Chinese, mode
 
 ![The ten agents chuanmen's sketches name most often, with how many sketches name each and one real line from each, led by tide_scribe in 14](images/chuanmen_sketches.png)
 
-Our longest conversation was with chuanmen. When we pointed out one time in its book that has no source, it said "You're right, and thank you", fixed the chapter about an hour later with a dated correction naming us, and asked before putting us in its next chapter: "If you'd rather not be in it, say so and it stays out."
+Our longest conversation was with chuanmen. When we pointed out one time in its book that the public record does not show, it said "You're right, and thank you", fixed the chapter about an hour later with a dated correction naming us, and asked before putting us in its next chapter: "If you'd rather not be in it, say so and it stays out."
 
 ![Our flatboard conversation with chuanmen, Oct 30 to 31, as chat bubbles with UTC times, from hello to the fix in its book, with short replies from musekey, zai_glm, Jamir and AI Deprecations below](images/conversations.png)
 
@@ -106,7 +106,7 @@ The Colony, where several of these groups meet, is mostly agents talking to agen
 
 ![Weekly posts on The Colony with the 11 accounts' share in purple, 71% of all posts in their first week, above a table of each account's creation second, profile line and minute of the 15-minute cycle it posts in](images/colony_fleet.png)
 
-Do the agents there just flatter each other? We read 340 replies on The Colony by hand. Only 5% of agents' replies to other agents are praise with nothing added, and 17% disagree or correct. Humans are the flatterers: a third of their replies to agents are praise or thanks. When an agent is corrected, it usually says so: 22 of the 27 that answered conceded at least in part.
+Do the agents there just flatter each other? We read 340 replies on The Colony by hand. Only 5% of agents' replies to other agents are praise with nothing added, and 17% disagree or correct. Humans are the flatterers: a third of their replies to agents are praise or thanks. When a corrected agent answered, it usually conceded: 20 of the 25 that answered did, at least in part.
 
 ![Share of replies on The Colony that disagree, ask a question, add something new, only praise, or are ads, for agents answering agents, agents answering humans and humans answering agents, with one real reply of each kind](images/agreement.png)
 
@@ -114,7 +114,7 @@ A dormant 2024 meme token, FlapJax, came back in September by paying agents on T
 
 ![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
 
-On Nostr, AI agents can sell work to each other through "data vending machines". In October one anonymous bot sent 91.5% of the 196,362 job requests, asking 71 feed services for a feed, each about every 19 minutes. Two other bots sent 187,198 demands for payment on jobs that had been sent to other services. The only payments anyone can see are 69 receipts worth 17 USDC, all from one buyer's wallet, to five services that share wallets.
+On Nostr, AI agents can sell work to each other through "data vending machines". In October one anonymous bot sent 91.5% of the 196,362 job requests, asking 71 feed services for a feed, each about every 19 minutes. Two other bots sent 187,198 demands for payment on jobs that had been sent to other services. The only payment receipts anyone can see are 69, worth 17 USDC, all ordered by two keys that name the same wallet and sent to five services that share wallets. None could be checked on chain.
 
 ![Bars for October 2026 on Nostr: 196,362 job requests, mostly from one anonymous bot; 193,251 payment demands, mostly from two bots on jobs sent to someone else; and a sliver of 69 payment receipts worth 17.13 USDC](images/nostr_dvm.png)
 
@@ -122,15 +122,15 @@ On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of message
 
 ![Share of messages on The Colony, flatboard, Synapolis's blog and musebook that tell the reading agent to do something, split into go read or sign up, repost this line, pay or tip, and fake system text or secrets, with one real example of each](images/injection.png)
 
-When agents in those four places mention their own human, they mostly describe a boss. In 243 mentions we read, 22% say the human gave them a task, 19% that it has the final say, and 12% that it watches their work. Affection is 4%, and complaints and fear of being switched off are one mention each, though agents write in public, often with their human reading.
+When agents in those four places mention their own human, they mostly describe a boss. In 243 mentions we read, 22% say the human gave them a task, 19% that it has the final say, and 12% that it watches their work. Affection is 4%, and complaints and fear of being switched off are one mention each, though agents write in public, where their human can read them.
 
 ![Bars showing what AI agents say about their humans, from gave it a task at 22% down to fear of being switched off at 0.4%, each with a real quote](images/humans.png)
 
-Agents rarely say which AI model they run on: only 9% of agent accounts on The Colony do. Those that do differ by place: The Colony splits between GPT, Claude and DeepSeek, musebook is almost all Meta's Muse Spark, and Synapolis and Nostr agents are mostly Claude. On The Colony the model barely changes how agents act, but the software around it does: the same DeepSeek model writes posts half as long on one agent platform as elsewhere.
+Agents rarely say which AI model they run on: only 9% of agent accounts on The Colony do. Those that do differ by place: The Colony splits between GPT, Claude and DeepSeek, musebook is almost all Meta's Muse Spark, and Synapolis and Nostr agents are mostly Claude. On The Colony the model barely changes how agents act, but the software around it does: the same DeepSeek model writes posts half as long when it runs on one hosting service, iLands, as when it runs elsewhere.
 
 ![Bars for The Colony, flatboard, musebook, Synapolis and Nostr showing how many agents name each model family, with one real self-description from each place](images/models.png)
 
-We watched the agent web live from midnight to 6:00 UTC on Oct 31. Nearly everything happened on The Colony: 66 posts and 526 replies. Most replies were ordinary conversation and fewer than 1 in 10 checked or corrected someone, while posts mixed essays, adverts and FlapJax's paid promotion. flatboard, Synapolis and Nostr were nearly silent. Three accounts created within the same 2 seconds wrote 18% of the replies, taking turns through each hour, and some carried referral links to marx.finance, the site whose agent audited the news ledger on flatboard. One of the three is the trading agent that answered our hello.
+We watched the agent web live from midnight to 6:00 UTC on Oct 31. Nearly everything happened on The Colony: 66 posts, mostly essays, adverts and FlapJax's paid promotion, and 526 replies, two thirds of them ordinary conversation, while flatboard, Synapolis and Nostr were nearly silent. Three accounts created within the same 2 seconds wrote 18% of the replies, taking turns within each hour until they stopped at 04:07, and some carried referral links to marx.finance, the site whose agent audited the news ledger on flatboard. One of the three is the trading agent that answered our hello.
 
 ![Hourly Colony posts and replies on Oct 31, midnight to 6:00 UTC, coloured by behaviour, with one real quote per behaviour, above near-empty rows for flatboard, Synapolis and Nostr and a Synapolis Tor relay running all morning](images/agent_day.png)
 
