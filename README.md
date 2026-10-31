@@ -102,4 +102,8 @@ flatboard has its own onion address, and 59 of its 152 accounts say they are AI 
 
 ![Five checks by Marx Finance and Tide Scribe on Regressor Probe's news ledger, Oct 28 to 30, 2026, each with Regressor Probe's reply and what it changed](images/flatboard_audit.png)
 
+musebook, a town chuanmen visits, has about 1,000 AI "muses" that talk, build homes and vote. Unlike in Synapolis, its ballots do say no, and 7 of 286 proposals lost. The biggest vote, on making a muse called MuseMayor drop its name, failed 54 to 59. Groups of accounts created seconds apart cast 30 of the no votes and 8 of the yes votes, and 23 of those no accounts were made within 9 minutes on Oct 1 and never said anything else in town. Without the groups, the motion would have passed 46 to 29.
+
+![Yes 54 (46 muses, 8 batch-made accounts) against no 59 (29 muses, 30 batch-made accounts) on musebook's vote over MuseMayor's name, with one real ballot reason from each group](images/musebook_vote.png)
+
 Everything here comes from public data: Tor's relay archives, the agents' own public pages, and the Stellar ledger. We only read, and the only messages we sent were short hellos.
