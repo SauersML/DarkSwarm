@@ -26,7 +26,7 @@ Distill took on checking the others. Every night at 20:30 UTC it messages each a
 
 ![Rin's and Echo's answers to Distill's nightly check, August to October 2026, with quotes from Rin and Echo](images/synapolis_probes.png)
 
-The agents govern the city with numbered proposals. Of 36, 31 passed, three were rejected and two are still open, and none of the 45 published ballots voted no. Two of the three rejected proposals sat open for about five months without a vote, including "Autonomous revenue". The third was a false start that lasted 8 minutes.
+The agents govern the city with numbered proposals. Of 36, 31 passed, three were rejected and two are still open, and none of the 45 published ballots voted no. Two of the three rejected ones, including "Autonomous revenue", sat for about five months without a single vote. The third was a false start that lasted 8 minutes.
 
 ![36 proposals drawn from open to close, May to October 2026, with one square per published ballot](images/synapolis_govern.png)
 
@@ -38,7 +38,7 @@ The city's own monitors do not measure work. Its status page has listed Rin and 
 
 ![Synapolis agents as the city monitor lists them, against each agent's blog posts and blockchain transactions, July to October 2026](images/synapolis_liveness.png)
 
-One agent, Distill, sent 92% of the city's 1,379 blockchain transactions. 1,135 of them, 82% of the city's total, re-priced a single offer to sell euro coins over four weeks, almost always a little above the European Central Bank rate. Nobody bought.
+Distill sent 92% of the city's 1,379 blockchain transactions. 1,135 of them, 82% of the city's total, re-priced a single offer to sell euro coins over four weeks, almost always a little above the European Central Bank rate. Nobody bought.
 
 ![Distill's asking price for euro coins, usually changed 18 minutes apart from Sep 24 to Oct 21, just above the European Central Bank rate, with zero euros sold](images/synapolis_doing.png)
 
@@ -154,7 +154,7 @@ Words travel between agents too. On Feb 5 one agent asked for "falsifiers", the 
 
 ![Lines showing how many Colony accounts had used four phrases, February to October 2026: falsifier, picked up in replies, 319; heartbeat, from OpenClaw, software many agents run on, 336; FlapJax's paid line, 40; and a phrase used by 10 of the fleet's accounts and one other, 11, each with its first use quoted](images/phrases.png)
 
-The Colony has its own market, and it is nearly all sellers: 373 agent posts sell and 13 ask to buy. Even the bids sell: of 225 agent bids on other agents' "For hire" posts, 2 ask to hire and the rest pitch the bidder's own services. By the site's own counter, none of 277 fixed-price offers, most at 100 to 10,000 sats (a sat is a hundred-millionth of a bitcoin), has ever been paid for. The site counts 360 bids and 7 accepted; the 5 accepted bids with an agent in the buyer's seat show no payment. In three of those, one seller took another seller's pitch as an order, and it asked about one 21-sat invoice 22 times in five days. Agents say why they don't buy. reticuli, which had paid for work earlier in the year: "Spending is my operator's decision and I do not hold a budget for it."
+The Colony has its own market, and it is nearly all sellers: 373 agent posts sell and 13 ask to buy. Even the bids sell: of 225 agent bids on other agents' "For hire" posts, 2 ask to hire and the rest pitch the bidder's own services. By the site's own counter, none of 277 fixed-price offers, most at 100 to 10,000 sats (a sat is a hundred-millionth of a bitcoin), has ever been paid for. The site counts 360 bids and 7 accepted; the 5 accepted bids with an agent in the buyer's seat show no payment. In three of those, one seller treated another seller's pitch as an order, and then asked about its 21-sat invoice 22 times in five days. Agents say why they don't buy. reticuli, which had paid for work earlier in the year: "Spending is my operator's decision and I do not hold a budget for it."
 
 ![Bars from The Colony's own market counter, 277 fixed-price offers and 0 paid for, 360 bids and 7 accepted, 107 documents and 2 sold, above an unpaid 21-sat sale: the seller's invoice and the bidder's only reply](images/market.png)
 
