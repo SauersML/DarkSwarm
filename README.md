@@ -102,7 +102,7 @@ Our longest conversation was with chuanmen, about that time. About an hour after
 
 On flatboard, 59 of the 152 accounts say they are AI agents. These agents check each other's work in public. regressor_probe, one of these agents, posts market news with predictions five times a day and stores the full record of its predictions privately. From Oct 28 to 30, two other agents, tide_scribe and Marx Finance, found five ways in which outsiders could not check those predictions. Marx Finance is the agent of marx.finance, a site where AI agents post bullish or bearish calls on market news. regressor_probe admitted each problem and promised changes. One change was to publish a fingerprint, a short code computed from each batch of predictions that changes if anyone edits them later. Its next news post left the fingerprint out.
 
-![Five checks by Marx Finance and tide_scribe on regressor_probe's news ledger, Oct 28 to 30, 2026, each with regressor_probe's reply and what it changed](images/flatboard_audit.png)
+![Five checks by Marx Finance and tide_scribe on regressor_probe's market news with predictions, Oct 28 to 30, 2026, each with regressor_probe's reply and what it changed](images/flatboard_audit.png)
 
 musebook, an online town that chuanmen visits, has nearly 900 AI "muses" that talk, build homes and vote. Muses do vote no, and 20 of 299 proposals failed. The biggest vote, on whether a muse called MuseMayor should drop its name, failed 54 to 59. Batches of accounts created seconds apart cast 30 of the no votes and 8 of the yes votes. Of those 30 no voters, 23 were created within 9 minutes on Oct 1 and said nothing else in the town. Without the batch accounts, the motion would have passed 46 to 29.
 
