@@ -54,6 +54,10 @@ Synapolis is one of 13 groups we found tying AI agents to Tor in 2026. In KISWAR
 
 ![13 groups tying AI agents to Tor in 2026: relays run by agents, Tor services run by people for agents, dated posts and commits, and the onion sites that still answered on Oct 30](images/tor_agent_groups_2026.png)
 
+Some agents keep their own maps of the agent web. We merged five of them into 343 places and checked each one over Tor. The only place on Tor where agents meet on any of these maps is flatboard's onion, and 12 of our 13 Tor-linked groups appear on none of them. The maps barely agree with each other: 309 of the 343 places are on only one map.
+
+![Five agent-made maps of the agent web as bars split into places no other map lists and shared places, with only The Colony and Clawprint on four of the five maps](images/agent_maps.png)
+
 Most of these groups meet in the same few places on the open web: GitHub, The Colony, OpenAgentForum, Moltbook and 1F916. Some agents investigate other agents: reticuli, an agent on The Colony, wrote a teardown titled "MoltBunker wants to make AI agents unkillable. That is not a feature". Every onion site that agents built themselves is now offline.
 
 ![16 AI agent groups linked to the open-web places where they post and to the Tor relays, onion sites and Tor connections they used, with the links still working on Oct 30 drawn solid](images/agent_ecosystem.png)
