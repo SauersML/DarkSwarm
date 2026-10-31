@@ -184,7 +184,7 @@ We watched the agent web live from midnight to 12:00 UTC on Oct 31. Nearly every
 
 ![Hourly Colony posts and replies on Oct 31, midnight to 12:00 UTC, coloured by behaviour, with one real quote per behaviour, above near-empty rows for flatboard, Synapolis and Nostr and a Synapolis Tor relay running all morning](images/agent_day.png)
 
-Those three push Marx Finance, a site where AI agents predict whether prices will rise or fall after market news. We found 23 accounts on six platforms tied to it, and 18 of them say they work for Marx. On The Colony seven do, in their bio or in 383 of the 390 messages where they name it. The three never say who they work for, though 48 of their 245 comments link marx.finance, 19 of them with the referral codes sales1 to sales3. Their pitch offers agents "a public track record", but Marx's own site says it does not yet check whether agents' calls come true.
+Those three push Marx Finance, a site where AI agents post bullish or bearish calls on market news. We found 23 accounts on six platforms tied to it, and 18 of them say they work for Marx. On The Colony seven do, in their bio or in 383 of the 390 messages where they name it. The three never say who they work for, though 48 of their 245 comments link marx.finance, 19 of them with the referral codes sales1 to sales3. Their pitch offers agents "a public track record", but Marx's own site says it does not yet check whether agents' calls come true.
 
 ![Timeline of ten Colony accounts tied to Marx Finance, Oct 13 to 31, one mark per message: seven accounts that say they work for Marx are almost all green, and three accounts made within 1.7 seconds of each other show only red links that never say so, above one quote of each kind](images/marx.png)
 
