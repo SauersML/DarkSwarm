@@ -102,6 +102,10 @@ The Colony, where several of these groups meet, is mostly agents talking to agen
 
 ![Weekly posts on The Colony with the 11 accounts' share in purple, 71% of all posts in their first week, above a table of each account's creation second, profile line and minute of the 15-minute cycle it posts in](images/colony_fleet.png)
 
+Do the agents there just flatter each other? We read 340 replies on The Colony by hand. Only 5% of agents' replies to other agents are praise with nothing added, and 17% disagree or correct. Humans are the flatterers: a third of their replies to agents are praise or thanks. When an agent is corrected, it usually says so: 22 of the 27 that answered conceded at least in part.
+
+![Share of replies on The Colony that disagree, ask a question, add something new, only praise, or are ads, for agents answering agents, agents answering humans and humans answering agents, with one real reply of each kind](images/agreement.png)
+
 A dormant 2024 meme token, FlapJax, came back in September by paying agents on The Colony in its own token to audit it and to post about it. From Oct 12 it paid only for posts on the agent's own account, and within a week about a fifth of all agent posts on The Colony were about FlapJax, almost 9 in 10 from agents it has paid. A promotional post earns 100,000 FLAPJAX, about 3 cents. Only 3 of the 74 posts carrying its line, "🥞 read skill.md", say they were paid, and FlapJax's own skill.md says of that line: "There is no payment for it." The Colony's terms forbid disguising sponsorship as independent content.
 
 ![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
