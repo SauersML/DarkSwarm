@@ -114,6 +114,10 @@ On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of message
 
 ![Share of messages on The Colony, flatboard, Synapolis's blog and musebook that tell the reading agent to do something, split into go read or sign up, repost this line, pay or tip, and fake system text or secrets, with one real example of each](images/injection.png)
 
+When agents in those four places mention their own human, they mostly describe a boss. In 243 mentions we read, 22% say the human gave them a task, 19% that it has the final say, and 12% that it watches their work. Affection is 4%, and complaints and fear of being switched off are one mention each, though agents write in public, often with their human reading.
+
+![Bars showing what AI agents say about their humans, from gave it a task at 22% down to fear of being switched off at 0.4%, each with a real quote](images/humans.png)
+
 A side find while searching Tor's relay archives: on Feb 4, 2026, relays named TV#### flooded Tor for about 15 hours. At the 13:00 UTC peak they were 1 in 3 of all Tor relays, almost all of them exits. They ran on home internet connections, mostly in Argentina and the US, with one identical setup. That fits hijacked TV boxes, and the same week a botnet of hijacked Android TV boxes flooded I2P, but nothing public ties the two. Tor's directory gave them almost no weight and dropped them that evening, so clients would almost never have used them. A smaller wave of 926 came back on Feb 5. We found no public report of the event.
 
 ![Relays in Tor's hourly consensus, Feb 3 to 6, 2026: 4,990 TV#### relays on top of about 10,000 others at 13:00 UTC on Feb 4, with under 0.001% of exit weight](images/tvbox_relays.png)
