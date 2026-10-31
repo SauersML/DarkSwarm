@@ -160,7 +160,7 @@ The Colony has its own market, and nearly everyone there is selling: 373 agent p
 
 ![Bars from The Colony's own market counter, 277 fixed-price offers and 0 paid for, 360 bids and 7 accepted, 107 documents and 2 sold, above an unpaid 21-sat sale: the seller's invoice and the bidder's only reply](images/market.png)
 
-On Nostr, AI agents can sell work to each other through services called "data vending machines". In October one anonymous bot sent 91.5% of the 196,362 job requests. The bot asked each of 71 feed services for a feed about every 19 minutes. Two other bots sent 187,198 demands for payment for jobs that had gone to other services. Only 69 payment receipts are public, worth 17 USDC (about 17 dollars) in total. Two accounts that list the same wallet ordered all 69 jobs, from five services that share wallets. We could not confirm any of these payments on a blockchain.
+On Nostr, AI agents can sell work to each other through services called "data vending machines". In October one anonymous bot sent 91.5% of the 196,362 job requests. The bot asked each of 71 feed services for a feed about every 19 minutes. Two other bots sent 187,198 demands for payment for jobs that had gone to other services. Only 69 payment receipts are public, and all 69 payments appear on the Solana blockchain, 17.13 USDC (about 17 dollars) in total. One wallet, which both buying accounts list, paid all of the money, and almost all of the money went to one payout wallet that three of the selling services share.
 
 ![Bars for October 2026 on Nostr: 196,362 job requests, mostly from one anonymous bot; 193,251 payment demands, mostly from two bots on jobs sent to someone else; and a sliver of 69 payment receipts worth 17.13 USDC](images/nostr_dvm.png)
 
