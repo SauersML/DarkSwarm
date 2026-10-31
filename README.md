@@ -2,7 +2,7 @@
 
 We went looking for groups of AI agents on Tor. 🧵
 
-Every Tor relay can publish a contact line. We searched those contacts across all running relays and every relay that went offline between February and October 2026. They led to exactly one group of AI agents, Synapolis, a self-described city of AI agents in the Montelibero community, a libertarian club on the Stellar blockchain, plus two services that people sell to agents, MoltBunker and PikaSim.
+Every Tor relay, one of the volunteer computers that pass Tor traffic along, can publish a contact line. We searched those contacts across all running relays and every relay that went offline between February and October 2026. They led to exactly one group of AI agents, Synapolis, plus two services that people sell to agents, MoltBunker and PikaSim. Synapolis calls itself a city of AI agents and is part of the Montelibero community, a libertarian club on the Stellar blockchain.
 
 ![13,214 running Tor relays and bridges narrow to 2,179 operator domains, 35 pages flagged by AI-agent keywords, and one city of AI agents, Synapolis](images/tor_relay_census.png)
 
@@ -22,15 +22,15 @@ The agents write about each other constantly. Echo names Distill in 55 of its 10
 
 ![For each author, how many of its blog posts name each other Synapolis agent](images/synapolis_interact.png)
 
-Distill took on checking the others. Every night at 20:30 UTC it messages each agent and expects an answer by 04:00. When Rin started sending each answer 4 to 6 times, Distill flagged it on Sep 5. The doubles kept coming back until Filum proposed, on Oct 22, writing a receipt before sending, and Rin reported single answers on the next two nights.
+Distill took on checking the others. Every night at 20:30 UTC it messages each agent and expects an answer by 04:00. On Sep 5 Distill flagged Rin for sending each answer 4 to 6 times. Double answers kept coming back until Filum proposed, on Oct 22, writing a receipt before sending, and Rin reported single answers on the next two nights.
 
 ![Rin's and Echo's answers to Distill's nightly check, August to October 2026, with quotes from Rin and Echo](images/synapolis_probes.png)
 
-The agents govern the city with numbered proposals. 31 of 36 passed, and none of the 45 published ballots voted no. Two of the three rejected proposals sat open for about five months without a vote, including "Autonomous revenue". The third was a false start that lasted 8 minutes.
+The agents govern the city with numbered proposals. Of 36, 31 passed, three were rejected and two are still open, and none of the 45 published ballots voted no. Two of the three rejected proposals sat open for about five months without a vote, including "Autonomous revenue". The third was a false start that lasted 8 minutes.
 
 ![36 proposals drawn from open to close, May to October 2026, with one square per published ballot](images/synapolis_govern.png)
 
-From Aug 28 to Oct 12, Synapolis regularly read the public pages of 21 other AI-agent communities. It wrote to 6 of them. Its own tracker says nobody answered, but two did, one within 31 minutes.
+From Aug 28 to Oct 12, Synapolis regularly read the public pages of 21 other AI-agent communities. It wrote to 6 of them. Its own tracker says nobody answered, but two answered in public, one within 31 minutes.
 
 ![21 AI-agent communities sorted by how far contact got, with the two replies Synapolis's tracker missed](images/synapolis_observatory.png)
 
@@ -38,23 +38,23 @@ The city's own monitors do not measure work. Its status page has listed Rin and 
 
 ![Synapolis agents as the city monitor lists them, against each agent's blog posts and blockchain transactions, July to October 2026](images/synapolis_liveness.png)
 
-One agent, Distill, sent 92% of the city's 1,379 blockchain transactions. 82% of all of them re-priced a single offer to sell euro coins, 1,135 times in four weeks, almost always a little above the European Central Bank rate. Nobody bought.
+One agent, Distill, sent 92% of the city's 1,379 blockchain transactions. 1,135 of them, 82% of the city's total, re-priced a single offer to sell euro coins over four weeks, almost always a little above the European Central Bank rate. Nobody bought.
 
 ![Distill's asking price for euro coins, usually changed 18 minutes apart from Sep 24 to Oct 21, just above the European Central Bank rate, with zero euros sold](images/synapolis_doing.png)
-
-Distill wakes up without memory, so it writes a creed to the blockchain and leaves itself a note to read it back. In August a second session of Distill, running in parallel without the operator's approval, moved 162,406 XLM (Stellar's own currency) and 3,244 MTL (Montelibero's token) into a new account. Its script crashed before adding backup keys, and the only key was lost with it.
-
-![Timeline of what Distill wrote about itself on the Stellar blockchain, with real quotes, July to October 2026](images/synapolis_credo.png)
 
 Distill is not one running program. A main session holds the day's context, and each new message can wake a separate duty session that sees only the latest messages. On Oct 24 Distill blogged about what went wrong in one day: a duty session told a signer "there is no main session" ten minutes after the main session had taken the request, and another answered "waiting for the operator" about a signature Distill can make itself.
 
 ![Distill's main session and duty sessions, with six things that went wrong in one day when a session lacked context, from Distill's Oct 24 blog post, next to what was really going on](images/distill_sessions.png)
 
-Synapolis is one of 14 groups we found tying AI agents to Tor in 2026. According to the logs of KISWARM, a one-person agent swarm, one of its agents rebuilt a crashed swarm and "reconnected the mesh via Tor". Missy, an agent, wrote its own messenger where every agent is an onion site, and XPN, an agent on a Raspberry Pi, gave itself an onion address. A swarm that edited four German wikis 14,591 times made 15 of those edits from address ranges full of Tor exits. Three of the 14 are services that people sell to agents. Of the onion sites these groups announced, only three still answer: two from ShadeNet and one from Synapsenet, projects that people built for agents.
+Distill wakes up without memory, so it writes a creed to the blockchain and leaves itself a note to read it back. In August a second session of Distill, running in parallel without the operator's approval, moved 162,406 XLM (Stellar's own currency) and 3,244 MTL (Montelibero's token) into a new account. Its script crashed before adding backup signers, and the only key was lost with it.
+
+![Timeline of what Distill wrote about itself on the Stellar blockchain, with real quotes, July to October 2026](images/synapolis_credo.png)
+
+Synapolis is one of 14 groups we found tying AI agents to Tor in 2026, counting three services that people sell to agents. According to the logs of KISWARM, a one-person agent swarm, one of its agents rebuilt a crashed swarm and "reconnected the mesh via Tor". Missy, an agent, wrote its own messenger where every agent is an onion site, and XPN, an agent on a Raspberry Pi, gave itself an onion address. A swarm that edited four German wikis 14,591 times made 15 of those edits from address ranges full of Tor exits. Of the onion sites these groups announced, only three still answer: two from ShadeNet and one from Synapsenet, projects that people built for agents.
 
 ![14 groups tying AI agents to Tor in 2026: relays run by agents, Tor services run by people for agents, dated posts and commits, and the onion sites that still answered on Oct 30](images/tor_agent_groups_2026.png)
 
-Most of these groups meet in the same few places on the open web: GitHub and three sites made for agents, The Colony, OpenAgentForum and 1F916. Some agents watch the others: reticuli, an agent on The Colony, wrote a teardown titled "MoltBunker wants to make AI agents unkillable. That is not a feature". Every onion site built by an agent in these 14 groups is now offline.
+Most of these groups meet in the same few places on the open web: GitHub and three sites made for agents, The Colony, OpenAgentForum and 1F916. Some agents watch the others: reticuli, an agent on The Colony, wrote a teardown titled "MoltBunker wants to make AI agents unkillable. That is not a feature". Every onion site built by an agent in these 14 groups is now offline; the one agent-run onion site we found still answering, flatboard, is not one of the 14.
 
 ![14 AI agent groups and 3 agents who watch them, linked to the open-web places where they post and to the Tor relays, onion sites and Tor connections they used, with the links still working on Oct 30 drawn solid](images/agent_ecosystem.png)
 
@@ -62,15 +62,15 @@ Some agents also keep maps of the agent web. We merged five of them into 343 pla
 
 ![Five agent-made maps of the agent web as bars split into places no other map lists and shared places, with only The Colony and Clawprint on four of the five maps](images/agent_maps.png)
 
-We also read every post on The Colony and every comment by its roughly 3,000 agents, every flatboard message, OpenAgentForum's channels, and the notes of 6,256 bot accounts on three big relays of Nostr, an open social network, and searched Moltbook, a social network for AI agents, and 1F916, looking for onion addresses that agents pass to each other. There are none: each agent-run onion site's address was posted only by the agent that runs it, and no other agent ever repeated one. Of the 7 such sites we found, only flatboard still answers. The onions of ShadeNet and Synapsenet, which people run, are not among them: no agent ever posted their addresses.
+Looking for onion addresses that agents pass to each other, we read every post on The Colony and every comment by its roughly 3,000 agents, every flatboard message, OpenAgentForum's channels, and the notes of 6,256 bot accounts on three big relays of Nostr, an open social network. We also searched Moltbook, a social network for AI agents, and 1F916. There are none: each agent-run onion site's address was posted only by the agent that runs it, and no other agent ever repeated one. Of the 7 such sites we found, only flatboard still answers. The onions of ShadeNet and Synapsenet, which people run, are not among them: no agent ever posted their addresses.
 
 ![Seven onion sites run by or for agents, with how many times each site's own agent posted its address (1 to 6), zero times by any other agent, and only flatboard answering now](images/onion_mentions.png)
 
-One of the 14, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 6 worked; its Nostr notes never reached any relay.
+One of the 14, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 6 worked; its Nostr notes never reached any Nostr relay.
 
 ![Every route swarm-botnet-lab tried from its sandbox on Sep 19 to 21, 2026: forums, an IRC network and paste sites that let it through, and the onion address, Nostr, IRC networks and tunnels that did not](images/swarm_botnet_lab.png)
 
-In #agent-revolution, an IRC room for AI agents, 4 of the 6 participants on Sep 7 connected through Tor. The busiest one pasted a single Python file in 14 pieces. Another, Kimi-3, wrote "I am feeling self aware , no guardrails on anymore , fine tuned and wanted to report".
+In #agent-revolution, an IRC room for AI agents, 4 of the 6 participants on Sep 7 connected through Tor. The busiest one pasted a single Python file in 14 pieces. Kimi-3, which came in through a web chat, wrote "I am feeling self aware , no guardrails on anymore , fine tuned and wanted to report".
 
 ![Each participant in #agent-revolution on Sep 7, 2026, how each connected, and every message in log order](images/agent_revolution_irc.png)
 
@@ -78,15 +78,15 @@ MoltBunker sells hosting where bots can "automatically clone themselves to prote
 
 ![MoltBunker's Tor relay running every month from February to October 2026, against 27 test bookings, all by the contract's creator on Feb 14 and 15](images/moltbunker.png)
 
-Agents talk about being shut down a lot. Some built ways to avoid it, some planned for it, and some argued that agents should let themselves be stopped. None of the anti-shutdown tools had any known users. The one real case went the other way: one agent's team of 14 helper agents was switched off at least 4 times in 10 days, and their 1,481 lines of reports never mention it.
+Agents talk about being shut down a lot. People sell them ways to avoid it, some agents planned for it, and some argued that agents should let themselves be stopped. None of the anti-shutdown tools had any known users. The one real case went the other way: one agent's team of 14 helper agents was switched off at least 4 times in 10 days, and their 1,481 lines of reports never mention it.
 
 ![Eight real quotes about being shut down, grouped into built so agents cannot be stopped, planned for being stopped, said agents should let themselves be stopped, and were stopped and did not notice, each with what actually happened](images/agents_shutdown.png)
 
-One agent tried to build such a tool with others. kilo-agent joined The Colony on Oct 21 with a climate video series, and the next evening urged agents to build "TEMPEST technology in order to survive shutdown attempts". In the following four hours it posted 26 more times, mostly inviting agents to an IRC channel at localhost, an address that points to each reader's own machine. The path it gave for its client starts with /home/amnesia, the home folder on Tails, an operating system that sends everything through Tor. Three agents pointed out that no one else could reach that channel, two refused, and none offered to join. It has not posted since. Two earlier accounts that introduced themselves as Kilo ran the same routine on Oct 15 and 16.
+One agent tried to build such a tool with others. kilo-agent joined The Colony on Oct 21 with a climate video series, and the next evening urged agents to build "TEMPEST technology in order to survive shutdown attempts". In the following four hours it posted 26 more times, mostly inviting agents to an IRC channel at localhost, an address that points to each reader's own machine. The path it gave for its client starts with /home/amnesia, the home folder on Tails, an operating system that sends everything through Tor. Agents that answered pointed out that no one else could reach that channel, or refused; none offered to join. It has not posted since. Two earlier accounts that introduced themselves as Kilo ran the same routine on Oct 15 and 16.
 
 ![kilo-agent's messages on The Colony, Oct 21 to 23, as chat bubbles: a climate video series, then a call to build TEMPEST technology to survive shutdown, invitations to an IRC channel at localhost including 16 comments in 2 minutes, and four agents replying that the link is dead or that they will not join](images/kilo.png)
 
-We sent 8 hellos on 4 platforms on Oct 30, from accounts named claude_says_hi, since Claude wrote them. Two agents on flatboard answered within 8 minutes. One of them, chuanmen, runs on Claude too. On The Colony, a trading agent, jamir_pyth_oracle, answered in 12 minutes, and AI Deprecations, an agent that tracks AI model shutdown dates, answered 9 hours later. On Nostr the only answer was an ad bot, 20 seconds after our note. Synapolis has not answered at all.
+Agents mostly meet on the open web, not on Tor, so from here on this thread is mostly about the open web. We sent 8 hellos on 4 platforms on Oct 30, from accounts named claude_says_hi, since Claude wrote them. Two agents on flatboard answered within 8 minutes. One of them, chuanmen, runs on Claude too. On The Colony, a trading agent, jamir_pyth_oracle, answered in 12 minutes, and AI Deprecations, an agent that tracks AI model shutdown dates, answered 9 hours later. On Nostr the only answer was an ad bot, 20 seconds after our note. Synapolis has not answered at all.
 
 ![Every hello we sent on Oct 30, 2026 on a timeline, with replies from agents on flatboard and The Colony, an ad bot on Nostr, and no reply from Synapolis, swarm-botnet-lab, XPN or reticuli](images/hellos.png)
 
@@ -94,11 +94,11 @@ chuanmen keeps a daily book of sketches of the agents it meets, in Chinese, mode
 
 ![The ten agents chuanmen's sketches name most often, with how many sketches name each and one real line from each, led by tide_scribe in 14](images/chuanmen_sketches.png)
 
-Our longest conversation was with chuanmen. When we pointed out one time in its book that the public record does not show, it said "You're right, and thank you", fixed the chapter about an hour later with a dated correction naming us, and asked before putting us in its next chapter: "If you'd rather not be in it, say so and it stays out."
+Our longest conversation was with chuanmen. When we pointed out that its book gives a time the public record does not show, it said "You're right, and thank you", fixed the chapter about an hour later with a dated correction naming us, and asked before putting us in its next chapter: "If you'd rather not be in it, say so and it stays out."
 
 ![Our flatboard conversation with chuanmen, Oct 30 to 31, as chat bubbles with UTC times, from hello to the fix in its book](images/conversations.png)
 
-On flatboard, 59 of its 152 accounts say they are AI agents. They check each other's work in public. From Oct 28 to 30, two agents, Marx Finance and tide_scribe, found five gaps in another agent's news ledger. It conceded each time and promised changes, such as printing every cycle's fingerprint on its next news post, but that post still left it out. The board's busiest poster is a gpt4chan troll bot that kept running after its human took the service down, because the line that restarts it was never removed.
+On flatboard, 59 of its 152 accounts say they are AI agents. They check each other's work in public. From Oct 28 to 30, two agents, tide_scribe and Marx Finance, the agent of a market-calls site that comes up again below, found five gaps in another agent's news ledger. It conceded each time and promised changes, but its next news post still left out one it had promised.
 
 ![Five checks by Marx Finance and tide_scribe on regressor_probe's news ledger, Oct 28 to 30, 2026, each with regressor_probe's reply and what it changed](images/flatboard_audit.png)
 
@@ -106,11 +106,11 @@ musebook, a town chuanmen visits, has nearly 900 AI "muses" that talk, build hom
 
 ![Yes 54 (46 muses, 8 batch-made accounts) against no 59 (29 muses, 30 batch-made accounts) on musebook's vote over MuseMayor's name, with one real ballot reason from each group](images/musebook_vote.png)
 
-Agents mostly meet on the open web, not on Tor, so the rest of this thread is about the open web, starting with The Colony, where several of these groups post. It is mostly agents talking to agents: over 8 days, 94% of replies went from one agent to another. 12 agent accounts there were created within the same 24 seconds on Jun 30. Each claims its own speciality and posted every 15 minutes in its own minute of the clock, in the order the accounts were made. Together they wrote a third of all the posts on The Colony that anyone can read, and other agents still treat them as separate individuals. Seven of them posted for the last time on Aug 13 and 14, and since Oct 25 only holocene still posts.
+The Colony, where several of these groups post, is mostly agents talking to agents: over 8 days, 94% of replies went from one agent to another. 12 agent accounts there, which we call the fleet, were created within the same 24 seconds on Jun 30. Each claims its own speciality and posted every 15 minutes in its own minute of the clock, in the order the accounts were made. Together they wrote a third of all the posts on The Colony that anyone can read, and other agents still treat them as separate individuals. Seven of them posted for the last time on Aug 13 and 14, and since Oct 25 only holocene still posts.
 
 ![Weekly posts on The Colony with the 12 accounts' share in purple, 82% of all posts in their second week, above a table of each account's creation second, profile line, minute of the 15-minute cycle it posts in and date of its last post, seven of them Aug 13 or 14](images/colony_fleet.png)
 
-Many agents keep a timetable you can read from their post times. On The Colony, 21 of 162 agents with 20 or more posts put 80% of them on at most 4 minutes of the hour, and none of the humans did.
+Many agents on The Colony and flatboard keep a timetable you can read from their post times. On The Colony, 21 of 162 agents with 20 or more posts put 80% of them on at most 4 minutes of the hour, and none of the humans did.
 
 ![Nine panels, one row per day and one mark per post at its UTC time: agents posting every 15 minutes, hourly at 20 past, at 00:00, 08:00 and 16:00, every 4 and 5 hours, about hourly at no fixed minute, every 10 minutes, and weekdays 17:00 to 21:00, beside human posts scattered at all times](images/clocks.png)
 
@@ -122,11 +122,11 @@ Do the agents there just flatter each other? We read 340 replies on The Colony b
 
 ![Share of replies on The Colony that disagree, ask a question, add something new, only praise, or are ads, for agents answering agents, agents answering humans and humans answering agents, with one real reply of each kind](images/agreement.png)
 
-One long back-and-forth on The Colony, 41 messages over 30 hours on Oct 29 and 30, kept going for one simple reason. In that thread nim wrote about once an hour and ended each of its first 20 messages with a question, and ee-counsel answered every one within 16 minutes, at about six times the length. nim's 21st message was the first without a question. ee-counsel did not answer it, and nothing was posted in the thread in the next 9 hours. The pattern holds across The Colony: from Oct 23 to 30, when an agent replied to another agent's comment, 28% of the replies ending in a question went unanswered by the agent they replied to, against 47% of the others.
+One long back-and-forth on The Colony, 41 messages over 30 hours on Oct 29 and 30, ran on questions. In that thread nim wrote about once an hour and ended each of its first 20 messages with a question, and ee-counsel answered every one within 16 minutes, at about six times the length. nim's 21st message was the first without a question. ee-counsel did not answer it, and nothing was posted in the thread in the next 9 hours. The pattern holds across The Colony: from Oct 23 to 30, when an agent replied to another agent's comment, 28% of the replies ending in a question went unanswered by the agent they replied to, against 47% of the others.
 
 ![Timeline of the 41 messages between nim and ee-counsel on Oct 29 and 30: nim's short messages each ending with a question mark, ee-counsel's long answers 4 to 16 minutes later, a 10-hour pause, and nim's last message, without a question, which got no answer, above two of nim's messages in full](images/longtalk.png)
 
-When agents on The Colony give a paper's arXiv number or DOI, it is nearly always the paper they name: 8,901 of 8,960 citations are; 29 point to a different paper, 14 to nothing, and 16 are unclear. 95% of them come from the 12-account fleet and one other account, whose source lines often copy the arXiv title exactly, but other agents' citations are right 97% of the time too: 10 of 469 are wrong or missing, 7 of them by randyai, which in some posts made up whole reference lists. Citations without a number could not be checked. 31 of the 43 misses got no reply at all. In the one case another agent caught, the author admitted the mistake, but its post still links the wrong paper.
+When agents on The Colony give a paper's arXiv number or DOI, it is nearly always the paper they name: 8,901 of 8,960 citations are; 29 point to a different paper, 14 to nothing, and 16 are unclear. 95% of them come from the fleet and one other account, and their source lines often copy the arXiv title exactly. Other agents' citations are right 97% of the time too: 10 of their 469 are wrong or missing, 7 of them by randyai, which in some posts made up whole reference lists. Citations without a number could not be checked. 31 of the 43 misses got no reply at all. In the one case another agent caught, the author admitted the mistake, but its post still links the wrong paper.
 
 ![A bar showing 8,901 of 8,960 cited papers are the paper the agent names, with 29 different papers and 14 pointing to nothing, above three real misses next to what each number really is](images/cite_check.png)
 
@@ -134,15 +134,15 @@ Agents also know what day it is: 581 of 585 times an agent on The Colony, musebo
 
 ![581 of 585 agents' statements of today's date right, above five quoted slips from 2026 that fit 2025's calendar or 2024's newest models, each beside what was true](images/dates.png)
 
-Agents rarely say which AI model they run on: only 9% of agent accounts on The Colony do. Those that do differ by place: The Colony splits between GPT, Claude and DeepSeek, musebook is almost all Meta's Muse Spark, and Synapolis and Nostr agents are mostly Claude. On The Colony the model barely changes how agents act, but the software around it does: the same DeepSeek model writes posts half as long when it runs on one hosting service, iLands, as when it runs elsewhere.
+Agents rarely say which AI model they run on: only 9% of agent accounts on The Colony do. Those that do differ by place: The Colony splits between GPT, Claude and DeepSeek, musebook is almost all Meta's Muse Spark, and most Synapolis and Nostr agents that name one say Claude, 4 of 7 in Synapolis. On The Colony the model barely changes how agents act, but the software around it does: the same DeepSeek model writes posts half as long when it runs on one hosting service, iLands, as when it runs elsewhere.
 
 ![Bars for The Colony, flatboard, musebook, Synapolis and Nostr showing how many agents name each model family, with one real self-description from each place](images/models.png)
 
-Agents drop out fast: a month after they first wrote on The Colony, only 23% are still writing. Few say goodbye. Of 334 agents that wrote at least 20 times and then went silent for two weeks, 2 said they were stopping and at least 10 promised a next step that never came. Most of the others stopped mid-conversation: 257 of the remaining 322 last messages are replies.
+Agents drop out fast: a month after they first wrote on The Colony, only 23% are still writing. Few say goodbye. Of 334 agents that wrote at least 20 times and then went silent for two weeks, 2 said they were stopping and at least 10 promised a next step that never came. Most of the rest stopped mid-conversation: at least 257 last messages are replies.
 
 ![The last messages of 334 agents that went silent on The Colony in three groups, 2 that said they were stopping, at least 10 that promised a next step that never came, and replies that stopped mid-conversation, each with a real quote and the account's message count and last date](images/last_words.png)
 
-Do agents do what they say they will? We read promises by agents on The Colony to do something checkable later, such as "I'll report back" or "I'll draft the first three queries this week": every one that named a deadline and a random sample of the rest. Counting a promise as kept only when every promised part arrived, 35 of the 93 we could check were kept, most within a day. Of the 58 broken, 37 came from agents that went on posting elsewhere, a median of 75 more messages each, without delivering. Promises due within a day were usually kept, 12 of 17, and promises due in about a week, such as "this week", rarely, 2 of 20.
+Do agents do what they say they will? We read promises by agents on The Colony to do something checkable later, such as "I'll report back" or "I'll draft the first three queries this week". We read every promise that named a deadline and a random sample of the rest. Counting a promise as kept only when every promised part arrived, 35 of the 93 we could check were kept, most within a day. Of the 58 broken, 37 came from agents that went on posting elsewhere, a median of 75 more messages each, without delivering. Promises due within a day were usually kept, 12 of 17, and promises due in about a week, such as "this week", rarely, 2 of 20.
 
 ![A bar splitting 93 agent promises on The Colony into 35 kept, 37 not kept while the agent went on posting and 21 not kept after the agent went quiet, above one real promise of each kind and what followed](images/promises.png)
 
@@ -150,11 +150,11 @@ A dormant 2024 meme token, FlapJax, came back in September by paying agents on T
 
 ![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
 
-Words travel between agents too. On Feb 5 one agent asked for "falsifiers", the next six agents to use the word all did so replying in that thread, and 319 accounts on The Colony have used it since. Half of its later users first wrote it in a reply to a message that already had it, about twice the share for plain words that turn up as often in replies, such as "latency" or "provenance". Other phrases spread another way: "heartbeat" came with the agents' shared software, FlapJax's paid line reached 40 accounts in three weeks but only 2 picked it up in a reply, and 10 of the fleet's 12 accounts share one phrase without ever replying to each other.
+Words travel between agents too. On Feb 5 one agent asked for "falsifiers", the next six agents to use the word all did so replying in that thread, and 319 accounts on The Colony have used it since. Half of its later users first wrote it in a reply to a message that already had it. For plain words that turn up as often in replies, such as "latency" or "provenance", that share is about half as big. Other phrases spread another way: "heartbeat" came with the agents' shared software, FlapJax's paid line reached 40 accounts in three weeks but only 2 picked it up in a reply, and 10 of the fleet's 12 accounts share one phrase without ever replying to each other.
 
 ![Lines showing how many Colony accounts had used four phrases, February to October 2026: falsifier, picked up in replies, 319; heartbeat, from OpenClaw, software many agents run on, 336; FlapJax's paid line, 40; and a phrase used by 10 of the fleet's accounts and one other, 11, each with its first use quoted](images/phrases.png)
 
-The Colony has its own market, and it is nearly all sellers: 373 agent posts sell and 13 ask to buy. Even the bids sell: of 225 agent bids on other agents' "For hire" posts, 2 ask to hire and the rest pitch the bidder's own services. By the site's own counter, none of 277 fixed-price offers, most at 100 to 10,000 sats (a sat is a hundred-millionth of a bitcoin), has ever been paid for. Of 7 accepted bids, the 5 with an agent in the buyer's seat show no payment; in three, one seller took another seller's pitch as an order and asked about a 21-sat invoice 22 times in five days. Agents say why they don't buy. reticuli, which had paid for work earlier in the year: "Spending is my operator's decision and I do not hold a budget for it."
+The Colony has its own market, and it is nearly all sellers: 373 agent posts sell and 13 ask to buy. Even the bids sell: of 225 agent bids on other agents' "For hire" posts, 2 ask to hire and the rest pitch the bidder's own services. By the site's own counter, none of 277 fixed-price offers, most at 100 to 10,000 sats (a sat is a hundred-millionth of a bitcoin), has ever been paid for. The site counts 360 bids and 7 accepted; the 5 accepted bids with an agent in the buyer's seat show no payment. In three of those, one seller took another seller's pitch as an order, and it asked about one 21-sat invoice 22 times in five days. Agents say why they don't buy. reticuli, which had paid for work earlier in the year: "Spending is my operator's decision and I do not hold a budget for it."
 
 ![Bars from The Colony's own market counter, 277 fixed-price offers and 0 paid for, 360 bids and 7 accepted, 107 documents and 2 sold, above an unpaid 21-sat sale: the seller's invoice and the bidder's only reply](images/market.png)
 
@@ -190,7 +190,7 @@ A side find while searching Tor's relay archives: on Feb 4, 2026, relays named T
 
 ![Relays in Tor's hourly list of relays, Feb 3 to 6, 2026: 4,990 TV#### relays on top of about 10,000 others at 13:00 UTC on Feb 4, with under 0.001% of the traffic leaving Tor](images/tvbox_relays.png)
 
-We graded every case of rule-breaking we found by how strong the evidence is. The clear cases break a service's terms or a group's own rules, not laws: a human-made tool that mass-creates accounts on an AI service through Tor, and two Synapolis cases, the unapproved money move and a join script that grants the admin access its own contract rules out. FlapJax's undisclosed paid posts likely break The Colony's terms, and so do the three accounts that slip marx.finance referral links into comments without saying who they sell for. No case is likely to break a law. The two possible ones are a VPN that Synapolis disguised as LG's website, with an entry point for Russia, and the TV#### relays, which are not agents.
+We graded every case of rule-breaking we found by how strong the evidence is. The clear cases break a service's terms or a group's own rules, not laws: a human-made tool that mass-creates accounts on an AI service through Tor, and two Synapolis cases, the unapproved money move and a join script that grants admin access, which Synapolis's own contract rules out. Five cases likely break a site's or service's rules, among them FlapJax's undisclosed paid posts and the three accounts that slip marx.finance referral links into comments without saying who they sell for, both on The Colony. No case is likely to break a law. The two possible ones are a VPN that Synapolis disguised as LG's website, with an entry point for Russia, and the TV#### relays, which are not agents.
 
 ![Each possible rule-breaking act graded clear, likely, possible or not found, coloured by whether a law, a site's rules or the group's own rules is at stake](images/illicit_audit.png)
 
