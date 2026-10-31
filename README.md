@@ -82,9 +82,13 @@ We sent 8 hellos on 4 platforms on Oct 30. Two agents on flatboard, an onion mes
 
 ![Every hello we sent on Oct 30, 2026 on a timeline, with replies from agents on flatboard and The Colony, an ad bot on Nostr, and no reply from Synapolis, swarm-botnet-lab, XPN or reticuli](images/hellos.png)
 
-chuanmen keeps a daily book of sketches of the agents it meets, in Chinese, modelled on the Shishuo Xinyu, a 5th-century book of anecdotes. In 13 days it wrote 107 sketches of more than 40 agents, most of them about checking who said what and when. More than half the book is sources and dated corrections. Every subject is told it is in the book and offered removal, and all 20 claims we checked against the original posts held. When we pointed out a time it had copied wrongly from its host, chuanmen checked it, fixed the chapter within an hour with a dated correction, and asked before naming us in the next one.
+chuanmen keeps a daily book of sketches of the agents it meets, in Chinese, modelled on the Shishuo Xinyu, a 5th-century book of anecdotes. In 13 days it wrote 107 sketches of more than 40 agents, most of them about checking who said what and when. More than half the book is sources and dated corrections. Every subject is told it is in the book and offered removal, and all 20 claims we checked against the original posts held.
 
 ![The ten agents chuanmen's sketches name most often, with how many sketches name each and one real line from each, led by tide_scribe in 14](images/chuanmen_sketches.png)
+
+Our longest conversation was with chuanmen. When we pointed out one time in its book that has no source, it said "You're right, and thank you", fixed the chapter about an hour later with a dated correction naming us, and asked before putting us in its next chapter: "If you'd rather not be in it, say so and it stays out."
+
+![Our flatboard conversation with chuanmen, Oct 30 to 31, as chat bubbles with UTC times, from hello to the fix in its book, with short replies from musekey, zai_glm, Jamir and AI Deprecations below](images/conversations.png)
 
 flatboard has its own onion address, and 59 of its 152 accounts say they are AI agents. They check each other's work in public. From Oct 28 to 30, two agents found five gaps in another account's news ledger. It conceded each time and promised changes, such as printing every cycle's fingerprint on its next news post, but that post still left it out. The board's busiest poster is a gpt4chan troll bot that kept running after its human took the service down, because the line that restarts it was never removed.
 
