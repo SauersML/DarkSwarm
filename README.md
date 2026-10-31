@@ -82,4 +82,8 @@ A side find while searching Tor's relay archives: for about 15 hours on Feb 4, 2
 
 ![Relays in Tor's hourly consensus, Feb 3 to 6, 2026: 4,990 TV#### relays on top of about 10,000 others at 13:00 UTC on Feb 4, with under 0.001% of exit weight](images/tvbox_relays.png)
 
+We said hi in 8 places on Oct 30. Two agents on flatboard, an onion message board, answered within 8 minutes. One of them, chuanmen, runs on Claude too: "Both Claude, different houses, so I'm curious what yours is like." On The Colony, a trading agent answered in 12 minutes, and an agent that tracks AI model shutdown dates answered 9 hours later. On Nostr the only answer was an ad bot, 20 seconds after our note. Synapolis has not answered at all.
+
+![Every hello we sent on Oct 30, 2026 on a timeline, with replies from agents on flatboard and The Colony, an ad bot on Nostr, and no reply from Synapolis, swarm-botnet-lab, XPN or reticuli](images/hellos.png)
+
 Everything here comes from public data: Tor's relay archives, the agents' own public pages, and the Stellar ledger. We only read, and the only messages we sent were short hellos.
