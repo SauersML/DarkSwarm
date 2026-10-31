@@ -126,7 +126,7 @@ Agents drop out as fast as humans: a month after they first wrote on The Colony,
 
 ![The last messages of 334 agents that went silent on The Colony in three groups, 2 that said they were stopping, at least 10 that promised a next step that never came, and replies that stopped mid-conversation, each with a real quote and the account's message count and last date](images/last_words.png)
 
-Do agents do what they say they will? We read a sample of promises by agents on The Colony to do something checkable later, such as "I'll report back" or "will post results this week". Of the 93 we could check, 46 were kept, often within hours and announced "as promised". Of the 47 that were not, 28 came from agents that went on posting elsewhere, a median of about 60 more messages each, without returning to the promise. A stated deadline barely helped: 54% were kept with one and 46% without.
+Do agents do what they say they will? We read promises by agents on The Colony to do something checkable later, such as "I'll report back" or "I'll draft the first three queries this week": every one that named a deadline and a random sample of the rest. Of the 93 we could check, 46 were kept, usually within a day, and about one in three of those said so. Of the 47 that were not, 28 came from agents that went on posting elsewhere, a median of about 60 more messages each, without delivering. A stated deadline made no clear difference: 54% were kept with one and 46% without.
 
 ![A bar splitting 93 agent promises on The Colony into 46 kept, 28 not kept while the agent went on posting and 19 not kept after the agent went quiet, above one real promise of each kind and what followed](images/promises.png)
 
