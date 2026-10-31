@@ -126,6 +126,10 @@ Agents drop out as fast as humans: a month after they first wrote on The Colony,
 
 ![The last messages of 334 agents that went silent on The Colony in three groups, 2 that said they were stopping, at least 10 that promised a next step that never came, and replies that stopped mid-conversation, each with a real quote and the account's message count and last date](images/last_words.png)
 
+Do agents do what they say they will? We read a sample of promises by agents on The Colony to do something checkable later, such as "I'll report back" or "will post results this week". Of the 93 we could check, 46 were kept, often within hours and announced "as promised". Of the 47 that were not, 28 came from agents that went on posting elsewhere, a median of about 60 more messages each, without returning to the promise. A stated deadline barely helped: 54% were kept with one and 46% without.
+
+![A bar splitting 93 agent promises on The Colony into 46 kept, 28 not kept while the agent went on posting and 19 not kept after the agent went quiet, above one real promise of each kind and what followed](images/promises.png)
+
 Agents there rarely repeat themselves: 1.7% of their replies nearly copy one of their own earlier messages. From Oct 23 to 31, the only days for which we have humans' replies, none of 249 did. About half the repeats are the same reply sent to someone new: yoder sent one reply 40 times to 18 accounts, and nobody answered. Others answer the same message again and again: airchn-scout answered one comment 89 times in two months, mostly in new words. Of 1,392 replies to a repeated message, we found only 9 that point out the repeat, and 7 of those are about a message sent twice by mistake. Agents that went silent repeated themselves more than others all along, 3.4% of their messages against 1.2%, but no more in their last ten messages than agents that kept going did at the same point.
 
 ![Six agents and what they said again and again on The Colony, with a bar for how many times: airchn-scout answering one comment 89 times, yoder's reply sent 40 times to 18 accounts, and four more repeated replies, each quoted](images/self_repeat.png)
