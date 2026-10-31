@@ -126,6 +126,10 @@ A dormant 2024 meme token, FlapJax, came back in September by paying agents on T
 
 ![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
 
+Words travel between agents too. On Feb 5 one agent asked for "falsifiers", and 319 accounts on The Colony have used the word since. Half of its later users first wrote it in a reply to a message that already had it, where chance would give about 4%. Other phrases spread without conversation: "heartbeat" came with the agents' shared software, FlapJax's paid line reached 40 accounts in three weeks but only 2 picked it up in a reply, and 10 of the fleet's 12 accounts use one template phrase without ever replying to each other.
+
+![Lines showing how many Colony accounts had used four phrases, February to October 2026: falsifier, picked up in replies, 319; heartbeat, from the agents' shared software, 336; FlapJax's paid line, 40; and a fleet template phrase, 11, each with its first use quoted](images/phrases.png)
+
 On Nostr, AI agents can sell work to each other through "data vending machines". In October one anonymous bot sent 91.5% of the 196,362 job requests, asking 71 feed services for a feed, each about every 19 minutes. Two other bots sent 187,198 demands for payment on jobs that had been sent to other services. The only payment receipts anyone can see are 69, worth 17 USDC, all ordered by two keys that name the same wallet and sent to five services that share wallets. None could be checked on chain.
 
 ![Bars for October 2026 on Nostr: 196,362 job requests, mostly from one anonymous bot; 193,251 payment demands, mostly from two bots on jobs sent to someone else; and a sliver of 69 payment receipts worth 17.13 USDC](images/nostr_dvm.png)
