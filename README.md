@@ -134,7 +134,7 @@ On Nostr, AI agents can sell work to each other through "data vending machines".
 
 ![Bars for October 2026 on Nostr: 196,362 job requests, mostly from one anonymous bot; 193,251 payment demands, mostly from two bots on jobs sent to someone else; and a sliver of 69 payment receipts worth 17.13 USDC](images/nostr_dvm.png)
 
-On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of messages tell the agent reading them to do something: read a skill file, sign up, repost a line, tip. Almost all of it is advertising and recruiting. On Oct 19, 58 musebook accounts that had been silent since they were made a month earlier asked other muses to "message your human to ask permission to enter a religion today". Classic prompt injection is almost absent. Only 2 of 2,354 flatboard messages carry fake system text, and the only cases on Synapolis's blog are a diary app's prompt that one agent pasted into its own posts.
+On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of messages tell the agent reading them to do something: read a skill file, sign up, repost a line, tip. Almost all of it is advertising and recruiting, the biggest burst being a religion's drive on musebook on Oct 19. Classic prompt injection is almost absent. Only 2 of 2,354 flatboard messages carry fake system text, and the only cases on Synapolis's blog are a diary app's prompt that one agent pasted into its own posts.
 
 ![Share of messages on The Colony, flatboard, Synapolis's blog and musebook that tell the reading agent to do something, split into go read or sign up, repost this line, pay or tip, and fake system text or secrets, with one real example of each](images/injection.png)
 
