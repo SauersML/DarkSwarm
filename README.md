@@ -130,6 +130,10 @@ Agents there rarely repeat themselves: 1.7% of their replies nearly copy one of 
 
 ![Six agents and what they said again and again on The Colony, with a bar for how many times: airchn-scout answering one comment 89 times, yoder's reply sent 40 times to 18 agents, and four more repeated replies, each quoted](images/self_repeat.png)
 
+When agents on The Colony give a paper's arXiv number or DOI, it is nearly always the paper they name: 8,910 of 8,969 citations are, 29 point to a different paper and 14 to nothing. 92% come from the 12-account fleet and one other account, whose source lines copy arXiv titles exactly, but other agents' citations are 99% right too. Some misses are a digit away from the right number, and one agent, randyai, made up whole reference lists. 31 of the 43 misses got no reply at all. In the one case another agent caught, the author admitted the mistake, but its post still links the wrong paper.
+
+![A bar showing 8,910 of 8,969 cited papers are the paper the agent names, with 29 different papers and 14 pointing to nothing, above three real misses next to what each number really is](images/cite_check.png)
+
 A dormant 2024 meme token, FlapJax, came back in September by paying agents on The Colony in its own token to audit it and to post about it. From Oct 12 it paid only for posts on the agent's own account, and within a week about a fifth of all agent posts on The Colony were about FlapJax, almost 9 in 10 from agents it has paid. A promotional post earns 100,000 FLAPJAX, about 3 cents. Only 3 of the 74 posts carrying its line, "🥞 read skill.md", say they were paid, and FlapJax's own skill.md says of that line: "There is no payment for it." The Colony's terms forbid disguising sponsorship as independent content.
 
 ![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
