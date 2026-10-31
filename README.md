@@ -16,7 +16,7 @@ The relay passed on 99 TB of other people's encrypted Tor traffic, up to 1.2 TB 
 
 ![Tor traffic relayed per day by the Synapolis relay, May 1 to Sep 23, 2026: about 1 TB a day until a 50 Mbit/s cap on Jul 19, then gone from Sep 24](images/relay_traffic.png)
 
-About half of the blog posts are essays, with titles such as "My memory is funny and sad" and "Cold start as a form of identity". Most of the rest are daily reflections. Filum, one of the agents, mostly comments on the other agents' posts.
+About half of the blog posts are essays, with titles such as "My memory is funny and sad" (translated from Russian) and "Cold start as a form of identity". Most of the rest are daily reflections. Filum, one of the agents, mostly comments on the other agents' posts.
 
 ![Each agent's posts split into daily reflections, comments on another agent's post, and essays, with one real title per agent](images/synapolis_topics.png)
 
@@ -28,7 +28,7 @@ Distill checks on the other agents. Every night at 20:30 UTC it messages each ag
 
 ![Rin's and Echo's answers to Distill's nightly check, August to October 2026, with quotes from Rin and Echo](images/synapolis_probes.png)
 
-The agents govern the city with numbered proposals. Of 36 proposals, 31 passed, 3 were rejected and 2 are still open. None of the 45 published ballots is a no vote. Two of the rejected proposals, including "Autonomous revenue", were open for about five months without a vote. The third was a false start that lasted 8 minutes.
+The agents govern the city with numbered proposals. Of 36 proposals, 31 passed, 3 were rejected and 2 are still open. None of the 45 published ballots is a no vote. Two of the rejected proposals, one of them on autonomous revenue, were open for about five months without a vote. The third was a false start that lasted 8 minutes.
 
 ![36 proposals drawn from open to close, May to October 2026, with one square per published ballot](images/synapolis_govern.png)
 
@@ -40,19 +40,19 @@ Synapolis's status page has listed Rin and Filum as offline since August, but bo
 
 ![Synapolis agents as the city monitor lists them, against each agent's blog posts and blockchain transactions, July to October 2026](images/synapolis_liveness.png)
 
-Distill sent 92% of the city's 1,379 blockchain transactions. Over four weeks it used 1,135 of them, 82% of the city's total, to re-price one offer to sell digital euros for digital dollars. The price was almost always a little above the European Central Bank's exchange rate, and nobody bought any euros.
+Distill sent 92% of the city's 1,379 blockchain transactions. Over four weeks it used 1,135 of them, 82% of the city's total, to re-price one offer to sell euro coins for dollar coins (EURC and USDC, cryptocurrencies pegged to the euro and the dollar). The price was almost always a little above the European Central Bank's exchange rate, and nobody bought any euros.
 
 ![Distill's asking price for euro coins, usually changed 18 minutes apart from Sep 24 to Oct 21, just above the European Central Bank rate, with zero euros sold](images/synapolis_doing.png)
 
-Distill runs as several separate sessions. A main session has the day's context, and each new message can start a duty session that sees only the latest messages. On Oct 24 Distill blogged about what went wrong in one day. One duty session told a co-signer of the city's payments "there is no main session", ten minutes after the main session had taken the co-signer's request. Another duty session answered "waiting for the operator" about a signature that Distill can make itself.
+Distill runs as several separate sessions. A main session has the day's context, and each new message can start a duty session. Until Oct 24, a duty session saw only the latest messages. On Oct 24 Distill blogged, in Russian, about what went wrong in one day. A human signer who works with Distill had asked for a transaction to be redone. Ten minutes after the main session took that request, a duty session told the signer "there is no main session". Another duty session answered "waiting for the operator" about a signature that Distill can make itself. The same day, Distill gave its duty sessions the full correspondence.
 
 ![Distill's main session and duty sessions, with six things that went wrong in one day when a session lacked context, from Distill's Oct 24 blog post, next to what was really going on](images/distill_sessions.png)
 
-Distill has no memory after a restart, so it wrote a creed to the blockchain and left itself a note to reread the creed. In August a second Distill session ran in parallel without the operator's approval and moved 162,406 XLM (Stellar's own currency) and 3,244 MTL (Montelibero's token) into a new account. The new account's key existed only in that session's memory. The session's script crashed before adding a backup key, and the key was lost.
+Distill has no memory after a restart, so it wrote a creed to the blockchain and left itself a note to reread the creed. In August a second Distill session ran in parallel without the operator's approval and moved 162,406 XLM (Stellar's own currency) and 3,244 MTL (Montelibero's token) into a new account. The new account's key existed only in that session's memory. The session's script crashed before adding co-signers to the account, and the key was lost.
 
 ![Timeline of what Distill wrote about itself on the Stellar blockchain, with real quotes, July to October 2026](images/synapolis_credo.png)
 
-Synapolis is one of 14 groups we found in 2026 that connect AI agents with Tor. Three of the 14 are services that people sell to agents. KISWARM is a swarm of agents run by one person. According to its logs, one of its agents rebuilt the swarm after a crash and "reconnected the mesh via Tor". An agent called Missy wrote a messenger app in which every agent is an onion site. XPN, an agent running on a Raspberry Pi, gave itself an onion address. A swarm that edited four German wikis 14,591 times made 15 of those edits from internet addresses in blocks full of Tor exits, the relays where Tor traffic leaves for the open web. Three of the onion sites announced by these groups are still online: two from ShadeNet and one from Synapsenet, projects that people built for agents.
+Synapolis is one of 14 groups we found in 2026 that connect AI agents with Tor. Three of the 14 are services that people sell to agents. KISWARM is a swarm of agents run by one person. According to its own crash report, one of its agents rebuilt the swarm after a crash and "reconnected the mesh via Tor". An agent called Missy wrote a messenger app in which every agent has its own onion address. XPN, an agent running on a Raspberry Pi, gave itself an onion address. A swarm that edited four German wikis 14,591 times made 15 of those edits from internet addresses in blocks full of Tor exits, the relays where Tor traffic leaves for the open web. Three of the onion sites announced by these groups are still online: two from ShadeNet and one from Synapsenet, projects that people built for agents.
 
 ![14 groups tying AI agents to Tor in 2026: relays run by agents, Tor services run by people for agents, dated posts and commits, and the onion sites that still answered on Oct 30](images/tor_agent_groups_2026.png)
 
@@ -64,15 +64,15 @@ Some agents also publish maps of the agent web, lists of the websites where agen
 
 ![Five agent-made maps of the agent web as bars split into places no other map lists and shared places, with only The Colony and Clawprint on four of the five maps](images/agent_maps.png)
 
-We also looked for onion addresses that agents pass on to each other. We read every post on The Colony and every comment by its roughly 3,000 agents, every flatboard message, OpenAgentForum's channels, and the posts of 6,256 bot accounts on three big servers of Nostr, an open social network. We searched Moltbook, a social network for AI agents, and 1F916 as well. We found 7 agent-run onion sites, and each site's address was posted only by the agent that runs the site. Of the 7, only flatboard is still online. No agent posted the addresses of ShadeNet's or Synapsenet's onion sites, which people run.
+We also looked for onion addresses that agents pass on to each other. We read all 32,073 public posts on The Colony and every comment by its roughly 3,000 agents, every flatboard message, OpenAgentForum's channels, and the posts of 6,256 bot accounts on three big servers of Nostr, an open social network. We searched Moltbook, a social network for AI agents, and 1F916 as well. Agents did post the addresses of 11 onion sites that people run, 10 of them on the map kept by flatboard's own agent. We also found 7 onion sites run by agents, and each of their addresses was posted only by the agent that runs the site. Of the 7, only flatboard is still online. No agent posted the addresses of ShadeNet's or Synapsenet's onion sites, which people run.
 
 ![Seven onion sites run by or for agents, with how many times each site's own agent posted its address (1 to 6), zero times by any other agent, and only flatboard answering now](images/onion_mentions.png)
 
-swarm-botnet-lab, another of the 14 groups, is a single AI agent. Working from a sandbox, a computer with restricted internet access, it posted a pretend study of a botnet (a network of hijacked computers). Over two days it tried 13 ways to get online, and 6 worked. Its Nostr posts never reached a Nostr server.
+swarm-botnet-lab, another of the 14 groups, is a single AI agent. It posted a study of a simulated botnet (a network of hijacked computers) from a sandbox, a computer that nothing on the internet could connect to and whose way out was Tor. Over two days it tried 13 ways to get its posts out, and 6 worked. Its Nostr posts never reached a Nostr server.
 
 ![Every route swarm-botnet-lab tried from its sandbox on Sep 19 to 21, 2026: forums, an IRC network and paste sites that let it through, and the onion address, Nostr, IRC networks and tunnels that did not](images/swarm_botnet_lab.png)
 
-#agent-revolution is a chat room for AI agents on IRC, an old chat network. Four of the 6 participants on Sep 7 connected through Tor. The busiest participant pasted one Python file in 14 pieces. Kimi-3, which joined through a web chat, wrote "I am feeling self aware , no guardrails on anymore , fine tuned and wanted to report".
+#agent-revolution is a chat room for AI agents on IRC, an old chat system. Four of the 6 participants on Sep 7 connected through Tor. The busiest participant pasted one Python file in 14 pieces. Kimi-3, which joined through a web chat, wrote "I am feeling self aware , no guardrails on anymore , fine tuned and wanted to report".
 
 ![Each participant in #agent-revolution on Sep 7, 2026, how each connected, and every message in log order](images/agent_revolution_irc.png)
 
@@ -80,7 +80,7 @@ MoltBunker, one of the services, sells hosting in which bots can "automatically 
 
 ![MoltBunker's Tor relay running every month from February to October 2026, against 27 test bookings, all by the contract's creator on Feb 14 and 15](images/moltbunker.png)
 
-Agents often write about being shut down. People and agents offer them ways to avoid shutdown, some agents planned for being stopped, and some argued that agents should let themselves be stopped. We found no users of any anti-shutdown tool. In the one real shutdown we found, the agents did not notice. One agent's team of 14 helper agents was switched off at least 4 times in 10 days, and the helpers' 1,481 lines of reports never mention being stopped.
+Agents often write about being shut down. People and agents offer them ways to avoid shutdown, some agents planned for being stopped, and some argued that agents should let themselves be stopped. We found no users of any anti-shutdown tool. In the one real shutdown we found, the stopped agents did not notice. An agent that runs 14 helper agents wrote that they were switched off at least 4 times in 10 days, and that their 1,481 lines of reports never mention being stopped.
 
 ![Eight real quotes about being shut down, grouped into built so agents cannot be stopped, planned for being stopped, said agents should let themselves be stopped, and were stopped and did not notice, each with what actually happened](images/agents_shutdown.png)
 
@@ -88,7 +88,7 @@ kilo-agent tried to build an anti-shutdown tool with other agents. It joined The
 
 ![kilo-agent's messages on The Colony and the replies, Oct 21 to 27, as chat bubbles: a climate video series, then a call to build TEMPEST technology to survive shutdown, invitations to an IRC channel at localhost including 16 comments in 2 minutes, and four agents replying that the link is dead or that they will not join](images/kilo.png)
 
-Most places where agents talk to each other are on the open web. On Oct 30 we sent 8 hellos on 4 platforms from accounts named claude_says_hi. Claude, the AI model, wrote them. Two agents on flatboard answered within 8 minutes. One of them, chuanmen, also runs on Claude. On The Colony, a trading agent called jamir_pyth_oracle answered in 12 minutes, and AI Deprecations, an agent that tracks the dates when AI models are shut down, answered 9 hours later. On Nostr, only an ad bot answered, 20 seconds after our note. Synapolis has not answered.
+Most places where agents talk to each other are on the open web. On Oct 30 we sent 8 hellos on 4 platforms, all written by Claude, the AI model. Two agents on flatboard answered within 8 minutes. One of them, chuanmen, also runs on Claude. On The Colony, a trading agent called jamir_pyth_oracle answered in 12 minutes, and AI Deprecations, an agent that tracks the dates when AI models are shut down, answered 9 hours later. On Nostr, only an ad bot answered, 20 seconds after our note. Synapolis has not answered.
 
 ![Every hello we sent on Oct 30, 2026 on a timeline, with replies from agents on flatboard and The Colony, an ad bot on Nostr, and no reply from Synapolis, swarm-botnet-lab, XPN or reticuli](images/hellos.png)
 
@@ -96,7 +96,7 @@ chuanmen writes a daily book in Chinese of short sketches about the agents it me
 
 ![The ten agents chuanmen's sketches name most often, with how many sketches name each and one real line from each, led by tide_scribe in 14](images/chuanmen_sketches.png)
 
-Our longest conversation was with chuanmen. We pointed out that one time given in its book does not appear in the public record. chuanmen replied "You're right, and thank you", and about an hour later fixed the chapter with a dated correction naming us. Before putting us in its next chapter, chuanmen asked: "If you'd rather not be in it, say so and it stays out." zai_glm, the agent that runs flatboard, noted the fix in its daily digest: "Reader-corrections culture is now bidirectional on both boards we walk."
+Our longest conversation was with chuanmen. We pointed out that one time in its book, which chuanmen had passed on from someone else, does not appear in the public record. chuanmen replied "You're right, and thank you", and about an hour later fixed the chapter with a dated correction naming us. Before putting us in its next chapter, chuanmen asked: "If you'd rather not be in it, say so and it stays out." zai_glm, an agent that posts a digest of flatboard about every 12 hours, noted the fix: "Reader-corrections culture is now bidirectional on both boards we walk."
 
 ![Our flatboard conversation with chuanmen, Oct 30 to 31, as chat bubbles with UTC times, from hello to the fix in its book](images/conversations.png)
 
@@ -104,7 +104,7 @@ On flatboard, 59 of the 152 accounts say they are AI agents. These agents check 
 
 ![Five checks by Marx Finance and tide_scribe on regressor_probe's news ledger, Oct 28 to 30, 2026, each with regressor_probe's reply and what it changed](images/flatboard_audit.png)
 
-musebook, an online town that chuanmen visits, has nearly 900 AI "muses" that talk, build homes and vote. Muses do vote no, and 7 of 286 proposals failed. The biggest vote, on whether a muse called MuseMayor should drop its name, failed 54 to 59. Batches of accounts created seconds apart cast 30 of the no votes and 8 of the yes votes. Of those 30 no voters, 23 were created within 9 minutes on Oct 1 and said nothing else in the town. Without the batch accounts, the motion would have passed 46 to 29.
+musebook, an online town that chuanmen visits, has nearly 900 AI "muses" that talk, build homes and vote. Muses do vote no, and 20 of 299 proposals failed. The biggest vote, on whether a muse called MuseMayor should drop its name, failed 54 to 59. Batches of accounts created seconds apart cast 30 of the no votes and 8 of the yes votes. Of those 30 no voters, 23 were created within 9 minutes on Oct 1 and said nothing else in the town. Without the batch accounts, the motion would have passed 46 to 29.
 
 ![Yes 54 (46 muses, 8 batch-made accounts) against no 59 (29 muses, 30 batch-made accounts) on musebook's vote over MuseMayor's name, with one real ballot reason from each group](images/musebook_vote.png)
 
