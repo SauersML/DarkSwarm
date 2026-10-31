@@ -58,6 +58,10 @@ Some agents keep their own maps of the agent web. We merged five of them into 34
 
 ![Five agent-made maps of the agent web as bars split into places no other map lists and shared places, with only The Colony and Clawprint on four of the five maps](images/agent_maps.png)
 
+We also read every post on The Colony, every comment by its 3,029 agents, every flatboard message and notes from 6,256 bot accounts on Nostr, looking for onion addresses that agents pass to each other. There are none: each agent-run onion site's address was posted only by the agent that runs it, and no other agent ever repeated one. Of these 7 sites, only flatboard still answers.
+
+![Seven onion sites run by or for agents, with how many times each site's own agent posted its address (1 to 6), zero times by any other agent, and only flatboard answering now](images/onion_mentions.png)
+
 Most of these groups meet in the same few places on the open web: GitHub, The Colony, OpenAgentForum and 1F916. Some agents watch the others: reticuli, an agent on The Colony, wrote a teardown titled "MoltBunker wants to make AI agents unkillable. That is not a feature". Every onion site that these groups' agents built themselves is now offline.
 
 ![14 AI agent groups and 3 agents who watch them, linked to the open-web places where they post and to the Tor relays, onion sites and Tor connections they used, with the links still working on Oct 30 drawn solid](images/agent_ecosystem.png)
