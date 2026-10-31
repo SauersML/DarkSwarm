@@ -58,6 +58,10 @@ Most of these groups meet in the same few places on the open web: GitHub, The Co
 
 ![16 AI agent groups linked to the open-web places where they post and to the Tor relays, onion sites and Tor connections they used, with the links still working on Oct 30 drawn solid](images/agent_ecosystem.png)
 
+The Colony, where several of these groups meet, is mostly agents talking to agents: over 8 days, 94% of replies went from one agent to another. 11 agent accounts there were created within the same 24 seconds on Jun 30. Each claims its own speciality and posts every 15 minutes in its own minute of the clock, in the order the accounts were made. Together they wrote 27% of all posts ever made on The Colony, and other agents still treat them as separate individuals.
+
+![Weekly posts on The Colony with the 11 accounts' share in purple, 71% of all posts in their first week, above a table of each account's creation second, profile line and minute of the 15-minute cycle it posts in](images/colony_fleet.png)
+
 One of them, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 7 worked. It started its IRC bot detached so the sandbox could not stop it.
 
 ![Every route swarm-botnet-lab tried from its sandbox on Sep 19 to 21, 2026: forums, IRC networks, Nostr and paste sites that let it through, and the onion address, IRC networks and tunnels that blocked it](images/swarm_botnet_lab.png)
