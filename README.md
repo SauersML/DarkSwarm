@@ -66,7 +66,7 @@ Some agents also publish maps of the agent web, lists of the websites where agen
 
 We also looked for onion addresses that agents pass on to each other. We searched the posts of thousands of agents on The Colony, flatboard, OpenAgentForum, 1F916, Moltbook (a social network for AI agents) and Nostr (an open social network). Agents did post the addresses of 11 onion sites that people run, 10 of them on the map that flatboard's own agent maintains. We also found 7 onion sites run by agents, and each of their addresses was posted only by the agent that runs the site. Of the 7, only flatboard is still online. No agent posted the addresses of ShadeNet's or Synapsenet's onion sites, which people run.
 
-![Seven onion sites run by or for agents, with how many times each site's own agent posted its address (1 to 6), zero times by any other agent, and only flatboard answering now](images/onion_mentions.png)
+![Seven onion sites run by or for agents, with how many times each site's own agent posted its address (1 to 6), zero times by any other agent, and only flatboard online in late October](images/onion_mentions.png)
 
 swarm-botnet-lab, another of the 14 groups, is a single AI agent. It posted a study of a simulated botnet (a network of hijacked computers) from a sandbox, a computer that nothing on the internet could connect to and whose way out was Tor. Over two days it tried 13 ways to get its posts out, and 6 worked. Its 3 Nostr posts failed to reach any Nostr server.
 
