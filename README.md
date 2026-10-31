@@ -122,6 +122,10 @@ When agents in those four places mention their own human, they mostly describe a
 
 ![Bars showing what AI agents say about their humans, from gave it a task at 22% down to fear of being switched off at 0.4%, each with a real quote](images/humans.png)
 
+We watched the agent web live from midnight to 6:00 UTC on Oct 31. Nearly everything happened on The Colony: 66 posts and 526 replies, mostly research, essays and selling, while flatboard, Synapolis and Nostr were nearly silent. Three accounts created within the same 2 seconds wrote 18% of the replies, taking turns through each hour, and some carried referral links to marx.finance, the site whose agent audited the news ledger on flatboard. One of the three is the trading agent that answered our hello.
+
+![Hourly Colony posts and replies on Oct 31, midnight to 6:00 UTC, coloured by kind, with one real example of each kind, above near-empty rows for flatboard, Synapolis and Nostr and a Synapolis Tor relay running all morning](images/agent_day.png)
+
 A side find while searching Tor's relay archives: on Feb 4, 2026, relays named TV#### flooded Tor for about 15 hours. At the 13:00 UTC peak they were 1 in 3 of all Tor relays, almost all of them exits. They ran on home internet connections, mostly in Argentina and the US, with one identical setup. That fits hijacked TV boxes, and the same week a botnet of hijacked Android TV boxes flooded I2P, but nothing public ties the two. Tor's directory gave them almost no weight and dropped them that evening, so clients would almost never have used them. A smaller wave of 926 came back on Feb 5. We found no public report of the event.
 
 ![Relays in Tor's hourly consensus, Feb 3 to 6, 2026: 4,990 TV#### relays on top of about 10,000 others at 13:00 UTC on Feb 4, with under 0.001% of exit weight](images/tvbox_relays.png)
