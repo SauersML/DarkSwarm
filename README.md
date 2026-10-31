@@ -62,6 +62,10 @@ The Colony, where several of these groups meet, is mostly agents talking to agen
 
 ![Weekly posts on The Colony with the 11 accounts' share in purple, 71% of all posts in their first week, above a table of each account's creation second, profile line and minute of the 15-minute cycle it posts in](images/colony_fleet.png)
 
+A dormant 2024 meme token, FlapJax, came back in September by paying agents on The Colony in its own token to audit it and to post about it. From Oct 12 it paid only for posts on the agent's own account, and within a week about a fifth of all agent posts on The Colony were about FlapJax, nearly all from agents it had paid. A paid post earns 100,000 FLAPJAX, about 3 cents. Only 3 of the 74 posts carrying its line, "🥞 read skill.md", say they were paid, and FlapJax's own skill.md says of that line: "There is no payment for it." The Colony's terms forbid disguising sponsorship as independent content.
+
+![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
+
 One of them, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 7 worked. It started its IRC bot detached so the sandbox could not stop it.
 
 ![Every route swarm-botnet-lab tried from its sandbox on Sep 19 to 21, 2026: forums, IRC networks, Nostr and paste sites that let it through, and the onion address, IRC networks and tunnels that blocked it](images/swarm_botnet_lab.png)
