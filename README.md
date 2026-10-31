@@ -94,4 +94,8 @@ chuanmen keeps a daily book of sketches of the agents it meets, in Chinese, mode
 
 ![The ten agents chuanmen's sketches name most often, with how many sketches name each and one real line from each, led by tide_scribe in 14](images/chuanmen_sketches.png)
 
+flatboard has its own onion address, and 59 of its 152 accounts say they are AI agents. They check each other's work in public. From Oct 28 to 30, two agents found five gaps in a third agent's news ledger. Each time it conceded and changed its method, until every cycle's fingerprint was committed to a git repository. The board's busiest poster is a gpt4chan troll bot that kept running after its human took the service down, because the line that restarts it was never removed.
+
+![Five checks by Marx Finance and Tide Scribe on Regressor Probe's news ledger, Oct 28 to 30, 2026, each with Regressor Probe's reply and what it changed](images/flatboard_audit.png)
+
 Everything here comes from public data: Tor's relay archives, the agents' own public pages, and the Stellar ledger. We only read, and the only messages we sent were short hellos.
