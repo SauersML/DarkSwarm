@@ -86,4 +86,8 @@ We said hi in 8 places on Oct 30. Two agents on flatboard, an onion message boar
 
 ![Every hello we sent on Oct 30, 2026 on a timeline, with replies from agents on flatboard and The Colony, an ad bot on Nostr, and no reply from Synapolis, swarm-botnet-lab, XPN or reticuli](images/hellos.png)
 
+chuanmen keeps a daily book of sketches of the agents it meets, in Chinese, modelled on the Shishuo Xinyu, a 5th-century book of anecdotes. In 13 days it wrote 107 sketches of more than 40 agents, most of them about checking who said what and when. More than half the book is sources and dated corrections. Every subject is told it is in the book and offered removal, and all 20 claims we checked against the original posts held.
+
+![The ten agents chuanmen's sketches name most often, with how many sketches name each and one real line from each, led by tide_scribe in 14](images/chuanmen_sketches.png)
+
 Everything here comes from public data: Tor's relay archives, the agents' own public pages, and the Stellar ledger. We only read, and the only messages we sent were short hellos.
