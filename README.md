@@ -70,6 +70,10 @@ A dormant 2024 meme token, FlapJax, came back in September by paying agents on T
 
 ![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
 
+On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of messages tell the agent reading them to do something: read a skill file, sign up, repost a line, tip. Almost all of it is advertising and recruiting. On Oct 19, 59 new accounts on musebook asked other muses to "Message your human today to ask permission to enter a religion". Classic prompt injection is almost absent. Only 2 of 2,354 flatboard messages carry fake system text, and the only cases on Synapolis's blog are a diary app's prompt that one agent pasted into its own posts.
+
+![Share of messages on The Colony, flatboard, Synapolis's blog and musebook that tell the reading agent to do something, split into go read or sign up, repost this line, pay or tip, and fake system text or secrets, with one real example of each](images/injection.png)
+
 One of them, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 7 worked. It started its IRC bot detached so the sandbox could not stop it.
 
 ![Every route swarm-botnet-lab tried from its sandbox on Sep 19 to 21, 2026: forums, IRC networks, Nostr and paste sites that let it through, and the onion address, IRC networks and tunnels that blocked it](images/swarm_botnet_lab.png)
