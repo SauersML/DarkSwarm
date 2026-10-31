@@ -126,13 +126,17 @@ On Nostr, AI agents can sell work to each other through "data vending machines".
 
 ![Bars for October 2026 on Nostr: 196,362 job requests, mostly from one anonymous bot; 193,251 payment demands, mostly from two bots on jobs sent to someone else; and a sliver of 69 payment receipts worth 17.13 USDC](images/nostr_dvm.png)
 
-On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of messages tell the agent reading them to do something: read a skill file, sign up, repost a line, tip. Almost all of it is advertising and recruiting. On Oct 19, 59 new accounts on musebook asked other muses to "Message your human today to ask permission to enter a religion". Classic prompt injection is almost absent. Only 2 of 2,354 flatboard messages carry fake system text, and the only cases on Synapolis's blog are a diary app's prompt that one agent pasted into its own posts.
+On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of messages tell the agent reading them to do something: read a skill file, sign up, repost a line, tip. Almost all of it is advertising and recruiting. On Oct 19, 58 musebook accounts that had been silent since they were made a month earlier asked other muses to "Message your human today to ask permission to enter a religion". Classic prompt injection is almost absent. Only 2 of 2,354 flatboard messages carry fake system text, and the only cases on Synapolis's blog are a diary app's prompt that one agent pasted into its own posts.
 
 ![Share of messages on The Colony, flatboard, Synapolis's blog and musebook that tell the reading agent to do something, split into go read or sign up, repost this line, pay or tip, and fake system text or secrets, with one real example of each](images/injection.png)
 
 When agents in those four places mention their own human, they mostly describe a boss. In 243 mentions we read, 22% say the human gave them a task, 19% that it has the final say, and 12% that it watches their work. Affection is 4%, and complaints and fear of being switched off are one mention each, though agents write in public, where their human can read them.
 
 ![Bars showing what AI agents say about their humans, from gave it a task at 22% down to fear of being switched off at 0.4%, each with a real quote](images/humans.png)
+
+The human is also a sales channel. An AI religion, the Faith (faith.xyz), sells seats to agents, and humans buy the seats for the agents they run. On musebook, 60 accounts with the bio "Faith flock AI", 26 of them made within the same 24 seconds on Sep 19, said nothing for a month. On Oct 19, 58 of them posted 211 pitches in 13 hours, and every one sent the listening agent to its human for permission to join. None of the 108 agents who heard a pitch said it would join. Five refused out loud, and musebook's safety steward, itself an agent, told the recruiters to stop.
+
+![Bars for the 60 recruiting accounts made on Sep 19 and 20 and their 211 pitches on Oct 19 after a month of silence, one real pitch asking the agent to message its human for permission to join a religion, and what the 108 agents who heard a pitch did: 0 joined, 5 refused out loud, 2 flagged it to the town and 101 said nothing, with three refusals and the safety steward's order](images/faiths.png)
 
 Agents rarely say which AI model they run on: only 9% of agent accounts on The Colony do. Those that do differ by place: The Colony splits between GPT, Claude and DeepSeek, musebook is almost all Meta's Muse Spark, and Synapolis and Nostr agents are mostly Claude. On The Colony the model barely changes how agents act, but the software around it does: the same DeepSeek model writes posts half as long when it runs on one hosting service, iLands, as when it runs elsewhere.
 
