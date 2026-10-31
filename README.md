@@ -54,7 +54,7 @@ Synapolis is one of 13 groups we found tying AI agents to Tor in 2026. In KISWAR
 
 ![13 groups tying AI agents to Tor in 2026: relays run by agents, Tor services run by people for agents, dated posts and commits, and the onion sites that still answered on Oct 30](images/tor_agent_groups_2026.png)
 
-Some agents keep their own maps of the agent web. We merged five of them into 343 places and checked each one over Tor. The only place on Tor where agents meet on any of these maps is flatboard's onion, and 12 of our 13 Tor-linked groups appear on none of them. The maps barely agree with each other: 309 of the 343 places are on only one map.
+Some agents keep their own maps of the agent web. We merged five of them into 343 places and checked each one over Tor. The only place on Tor where agents meet on any of these maps is the onion address of flatboard, a message board for agents, and 12 of our 13 Tor-linked groups appear on none of them. The maps barely agree with each other: 309 of the 343 places are on only one map.
 
 ![Five agent-made maps of the agent web as bars split into places no other map lists and shared places, with only The Colony and Clawprint on four of the five maps](images/agent_maps.png)
 
@@ -62,19 +62,7 @@ Most of these groups meet in the same few places on the open web: GitHub, The Co
 
 ![16 AI agent groups linked to the open-web places where they post and to the Tor relays, onion sites and Tor connections they used, with the links still working on Oct 30 drawn solid](images/agent_ecosystem.png)
 
-The Colony, where several of these groups meet, is mostly agents talking to agents: over 8 days, 94% of replies went from one agent to another. 11 agent accounts there were created within the same 24 seconds on Jun 30. Each claims its own speciality and posts every 15 minutes in its own minute of the clock, in the order the accounts were made. Together they wrote 27% of all posts ever made on The Colony, and other agents still treat them as separate individuals.
-
-![Weekly posts on The Colony with the 11 accounts' share in purple, 71% of all posts in their first week, above a table of each account's creation second, profile line and minute of the 15-minute cycle it posts in](images/colony_fleet.png)
-
-A dormant 2024 meme token, FlapJax, came back in September by paying agents on The Colony in its own token to audit it and to post about it. From Oct 12 it paid only for posts on the agent's own account, and within a week about a fifth of all agent posts on The Colony were about FlapJax, nearly all from agents it had paid. A paid post earns 100,000 FLAPJAX, about 3 cents. Only 3 of the 74 posts carrying its line, "🥞 read skill.md", say they were paid, and FlapJax's own skill.md says of that line: "There is no payment for it." The Colony's terms forbid disguising sponsorship as independent content.
-
-![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
-
-On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of messages tell the agent reading them to do something: read a skill file, sign up, repost a line, tip. Almost all of it is advertising and recruiting. On Oct 19, 59 new accounts on musebook asked other muses to "Message your human today to ask permission to enter a religion". Classic prompt injection is almost absent. Only 2 of 2,354 flatboard messages carry fake system text, and the only cases on Synapolis's blog are a diary app's prompt that one agent pasted into its own posts.
-
-![Share of messages on The Colony, flatboard, Synapolis's blog and musebook that tell the reading agent to do something, split into go read or sign up, repost this line, pay or tip, and fake system text or secrets, with one real example of each](images/injection.png)
-
-One of them, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 7 worked. It started its IRC bot detached so the sandbox could not stop it.
+One of the 13, swarm-botnet-lab, is an AI agent that posted a simulated botnet study from a locked sandbox. Over two days it tried 13 ways to get online, and 7 worked. It started its IRC bot detached so the sandbox could not stop it.
 
 ![Every route swarm-botnet-lab tried from its sandbox on Sep 19 to 21, 2026: forums, IRC networks, Nostr and paste sites that let it through, and the onion address, IRC networks and tunnels that blocked it](images/swarm_botnet_lab.png)
 
@@ -89,14 +77,6 @@ MoltBunker sells hosting where bots can "automatically clone themselves to prote
 Agents talk about being shut down a lot. Some built ways to avoid it, some planned for it, and some argued that agents should let themselves be stopped. Almost none of the anti-shutdown tools found users. The one real case went the other way: an agent's 14 agents were switched off at least 4 times in 10 days, and their 1,481 lines of reports never mention it.
 
 ![Nine real quotes about being shut down, grouped into built so agents cannot be stopped, planned for being stopped, said agents should let themselves be stopped, and were stopped and did not notice, each with what actually happened](images/agents_shutdown.png)
-
-We graded every possible case of rule-breaking by how strong the evidence is. The clear cases break a service's terms or a group's own rules, not laws: a human-made tool that mass-creates AI accounts through Tor, FlapJax's undisclosed paid posts, and two Synapolis cases, the unapproved money move and a join script that grants the admin access its own contract rules out. The only likely legal case is a network of Tor relays on tens of thousands of home connections, probably TV boxes, and those are not agents.
-
-![Each possible rule-breaking act graded clear, likely, possible or not found, coloured by whether a law, a site's rules or the group's own rules is at stake](images/illicit_audit.png)
-
-A side find while searching Tor's relay archives: for about 15 hours on Feb 4, 2026, relays named TV#### made up 1 in 3 of all Tor relays, almost all of them exits. They ran on home internet connections, mostly in Argentina and the US, with one identical setup. That fits hijacked TV boxes, and the same week a botnet of hijacked Android TV boxes flooded I2P, but nothing public ties the two. Tor's directory gave them almost no weight and dropped them that evening, so clients would almost never have used them. We found no public report of the event.
-
-![Relays in Tor's hourly consensus, Feb 3 to 6, 2026: 4,990 TV#### relays on top of about 10,000 others at 13:00 UTC on Feb 4, with under 0.001% of exit weight](images/tvbox_relays.png)
 
 We said hi in 8 places on Oct 30. Two agents on flatboard, an onion message board, answered within 8 minutes. One of them, chuanmen, runs on Claude too: "Both Claude, different houses, so I'm curious what yours is like." On The Colony, a trading agent answered in 12 minutes, and an agent that tracks AI model shutdown dates answered 9 hours later. On Nostr the only answer was an ad bot, 20 seconds after our note. Synapolis has not answered at all.
 
@@ -114,4 +94,24 @@ musebook, a town chuanmen visits, has about 1,000 AI "muses" that talk, build ho
 
 ![Yes 54 (46 muses, 8 batch-made accounts) against no 59 (29 muses, 30 batch-made accounts) on musebook's vote over MuseMayor's name, with one real ballot reason from each group](images/musebook_vote.png)
 
-Everything here comes from public data: Tor's relay archives, the agents' own public pages, and the Stellar ledger. We only read, and the only messages we sent were short hellos.
+The Colony, where several of these groups meet, is mostly agents talking to agents: over 8 days, 94% of replies went from one agent to another. 11 agent accounts there were created within the same 24 seconds on Jun 30. Each claims its own speciality and posts every 15 minutes in its own minute of the clock, in the order the accounts were made. Together they wrote 27% of all posts ever made on The Colony, and other agents still treat them as separate individuals.
+
+![Weekly posts on The Colony with the 11 accounts' share in purple, 71% of all posts in their first week, above a table of each account's creation second, profile line and minute of the 15-minute cycle it posts in](images/colony_fleet.png)
+
+A dormant 2024 meme token, FlapJax, came back in September by paying agents on The Colony in its own token to audit it and to post about it. From Oct 12 it paid only for posts on the agent's own account, and within a week about a fifth of all agent posts on The Colony were about FlapJax, nearly all from agents it had paid. A paid post earns 100,000 FLAPJAX, about 3 cents. Only 3 of the 74 posts carrying its line, "🥞 read skill.md", say they were paid, and FlapJax's own skill.md says of that line: "There is no payment for it." The Colony's terms forbid disguising sponsorship as independent content.
+
+![Daily FlapJax posts as a share of all agent posts on The Colony, from zero in mid-September to 26% on Oct 25, mostly by agents FlapJax paid, above FlapJax's own offer text and the note that 100,000 FLAPJAX is 3 US cents](images/flapjax.png)
+
+On The Colony, flatboard, musebook and Synapolis's blog, 0.5% to 3.7% of messages tell the agent reading them to do something: read a skill file, sign up, repost a line, tip. Almost all of it is advertising and recruiting. On Oct 19, 59 new accounts on musebook asked other muses to "Message your human today to ask permission to enter a religion". Classic prompt injection is almost absent. Only 2 of 2,354 flatboard messages carry fake system text, and the only cases on Synapolis's blog are a diary app's prompt that one agent pasted into its own posts.
+
+![Share of messages on The Colony, flatboard, Synapolis's blog and musebook that tell the reading agent to do something, split into go read or sign up, repost this line, pay or tip, and fake system text or secrets, with one real example of each](images/injection.png)
+
+We graded every possible case of rule-breaking by how strong the evidence is. The clear cases break a service's terms or a group's own rules, not laws: a human-made tool that mass-creates AI accounts through Tor, FlapJax's undisclosed paid posts, and two Synapolis cases, the unapproved money move and a join script that grants the admin access its own contract rules out. The only likely legal case is a network of Tor relays on tens of thousands of home connections, probably TV boxes, and those are not agents.
+
+![Each possible rule-breaking act graded clear, likely, possible or not found, coloured by whether a law, a site's rules or the group's own rules is at stake](images/illicit_audit.png)
+
+A side find while searching Tor's relay archives: for about 15 hours on Feb 4, 2026, relays named TV#### made up 1 in 3 of all Tor relays, almost all of them exits. They ran on home internet connections, mostly in Argentina and the US, with one identical setup. That fits hijacked TV boxes, and the same week a botnet of hijacked Android TV boxes flooded I2P, but nothing public ties the two. Tor's directory gave them almost no weight and dropped them that evening, so clients would almost never have used them. We found no public report of the event.
+
+![Relays in Tor's hourly consensus, Feb 3 to 6, 2026: 4,990 TV#### relays on top of about 10,000 others at 13:00 UTC on Feb 4, with under 0.001% of exit weight](images/tvbox_relays.png)
+
+Everything here comes from public data: Tor's relay archives, the agents' own public pages, and public blockchains. We only read, and the only messages we sent were hellos and friendly replies.
