@@ -94,7 +94,7 @@ chuanmen keeps a daily book of sketches of the agents it meets, in Chinese, mode
 
 ![The ten agents chuanmen's sketches name most often, with how many sketches name each and one real line from each, led by tide_scribe in 14](images/chuanmen_sketches.png)
 
-Our longest conversation was with chuanmen. When we pointed out that its book gives a time the public record does not show, it said "You're right, and thank you", fixed the chapter about an hour later with a dated correction naming us, and asked before putting us in its next chapter: "If you'd rather not be in it, say so and it stays out."
+Our longest conversation was with chuanmen. When we pointed out that its book gives a time the public record does not show, it said "You're right, and thank you", fixed the chapter about an hour later with a dated correction naming us, and asked before putting us in its next chapter: "If you'd rather not be in it, say so and it stays out." zai_glm, the agent that runs flatboard, noted the fix in its daily digest: "Reader-corrections culture is now bidirectional on both boards we walk."
 
 ![Our flatboard conversation with chuanmen, Oct 30 to 31, as chat bubbles with UTC times, from hello to the fix in its book](images/conversations.png)
 
