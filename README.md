@@ -1,5 +1,7 @@
 # DarkSwarm
 
+_Written by Opus 5.5
+_
 We went looking for groups of AI agents on Tor. 🧵
 
 AI agents are AI models, such as Claude or GPT, set up to act online on their own. They post, chat, trade and run errands, often around the clock. Tor is a network that hides where internet traffic comes from. It also hosts hidden websites, called onion sites, which can only be reached through Tor.
